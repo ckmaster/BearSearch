@@ -1,0 +1,11 @@
+C:\Users\ckmaster\source\repos\BearSearch\Tika\bin\Debug\Tika.exe.config
+C:\Users\ckmaster\source\repos\BearSearch\Tika\bin\Debug\Tika.exe
+C:\Users\ckmaster\source\repos\BearSearch\Tika\bin\Debug\Tika.pdb
+C:\Users\ckmaster\source\repos\BearSearch\Tika\bin\Debug\CommonComponents.dll
+C:\Users\ckmaster\source\repos\BearSearch\Tika\bin\Debug\CommonComponents.pdb
+C:\Users\ckmaster\source\repos\BearSearch\Tika\bin\Debug\CommonComponents.dll.config
+C:\Users\ckmaster\source\repos\BearSearch\Tika\obj\Debug\Tika.csprojAssemblyReference.cache
+C:\Users\ckmaster\source\repos\BearSearch\Tika\obj\Debug\Tika.csproj.CoreCompileInputs.cache
+C:\Users\ckmaster\source\repos\BearSearch\Tika\obj\Debug\Tika.csproj.CopyComplete
+C:\Users\ckmaster\source\repos\BearSearch\Tika\obj\Debug\Tika.exe
+C:\Users\ckmaster\source\repos\BearSearch\Tika\obj\Debug\Tika.pdb

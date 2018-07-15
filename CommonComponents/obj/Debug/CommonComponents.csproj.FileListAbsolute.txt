@@ -1,0 +1,8 @@
+C:\Users\ckmaster\source\repos\TikaTest\CommonComponents\obj\Debug\CommonComponents.csproj.CoreCompileInputs.cache
+C:\Users\ckmaster\source\repos\BearSearch\CommonComponents\obj\Debug\CommonComponents.csprojAssemblyReference.cache
+C:\Users\ckmaster\source\repos\BearSearch\CommonComponents\obj\Debug\CommonComponents.csproj.CoreCompileInputs.cache
+C:\Users\ckmaster\source\repos\BearSearch\CommonComponents\bin\Debug\CommonComponents.dll.config
+C:\Users\ckmaster\source\repos\BearSearch\CommonComponents\bin\Debug\CommonComponents.dll
+C:\Users\ckmaster\source\repos\BearSearch\CommonComponents\bin\Debug\CommonComponents.pdb
+C:\Users\ckmaster\source\repos\BearSearch\CommonComponents\obj\Debug\CommonComponents.dll
+C:\Users\ckmaster\source\repos\BearSearch\CommonComponents\obj\Debug\CommonComponents.pdb
