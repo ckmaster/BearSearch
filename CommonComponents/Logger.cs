@@ -7,7 +7,7 @@ using System.IO;
 
 namespace CommonComponents
 {
-    class Logger
+    public class Logger
     {
         private static string logFile;
 

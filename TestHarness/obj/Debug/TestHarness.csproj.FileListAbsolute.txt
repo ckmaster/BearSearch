@@ -9,6 +9,8 @@ C:\Users\ckmaster\source\repos\BearSearch\TestHarness\bin\Debug\CommonComponents
 C:\Users\ckmaster\source\repos\BearSearch\TestHarness\obj\Debug\TestHarness.csproj.CopyComplete
 C:\Users\ckmaster\source\repos\BearSearch\TestHarness\obj\Debug\TestHarness.exe
 C:\Users\ckmaster\source\repos\BearSearch\TestHarness\obj\Debug\TestHarness.pdb
-C:\Users\ckmaster\source\repos\BearSearch\TestHarness\bin\Debug\Tika.exe
 C:\Users\ckmaster\source\repos\BearSearch\TestHarness\bin\Debug\Tika.pdb
-C:\Users\ckmaster\source\repos\BearSearch\TestHarness\bin\Debug\Tika.exe.config
+C:\Users\ckmaster\source\repos\BearSearch\TestHarness\bin\Debug\Tika.dll
+C:\Users\ckmaster\source\repos\BearSearch\TestHarness\bin\Debug\Tika.dll.config
+C:\Users\ckmaster\source\repos\BearSearch\TestHarness\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ckmaster\source\repos\BearSearch\TestHarness\bin\Debug\Newtonsoft.Json.xml

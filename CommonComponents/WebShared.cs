@@ -11,11 +11,12 @@ namespace CommonComponents
 {
     public abstract class WebShared
     {
+        protected static string method;
         protected static string baseUrl;
         protected static string urlParameters;
+        //Can be a directory or the actual string to pass to the response body
         protected static string body;
         protected static Dictionary<string, string> headers;
-        protected static string method;
 
         public WebShared(string baseUrl, string urlParameters, string body, Dictionary<string, string> headers)
         {
@@ -40,6 +41,21 @@ namespace CommonComponents
                     System.Reflection.PropertyInfo prop = typeof(HttpWebRequest).GetProperty(header.Key);
                     //object value = prop.GetValue(request);
                     prop.SetValue(request, header.Value);
+                }
+                if (!String.IsNullOrEmpty(body))
+                {
+                    byte[] byteArray = new byte[0];
+                    if (File.Exists(body))
+                    {
+                        byteArray = File.ReadAllBytes(body);
+                    }
+                    else
+                    {
+                        byteArray = Encoding.UTF8.GetBytes(body);
+                    }
+                    Stream dataStream = request.GetRequestStream();
+                    dataStream.Write(byteArray, 0, byteArray.Length);
+                    dataStream.Close();
                 }
             }
             return request;

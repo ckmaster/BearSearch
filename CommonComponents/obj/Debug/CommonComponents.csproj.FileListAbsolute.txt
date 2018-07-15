@@ -6,3 +6,6 @@ C:\Users\ckmaster\source\repos\BearSearch\CommonComponents\bin\Debug\CommonCompo
 C:\Users\ckmaster\source\repos\BearSearch\CommonComponents\bin\Debug\CommonComponents.pdb
 C:\Users\ckmaster\source\repos\BearSearch\CommonComponents\obj\Debug\CommonComponents.dll
 C:\Users\ckmaster\source\repos\BearSearch\CommonComponents\obj\Debug\CommonComponents.pdb
+C:\Users\ckmaster\source\repos\BearSearch\CommonComponents\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ckmaster\source\repos\BearSearch\CommonComponents\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ckmaster\source\repos\BearSearch\CommonComponents\obj\Debug\CommonComponents.csproj.CopyComplete

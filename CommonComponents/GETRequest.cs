@@ -8,9 +8,9 @@ using System.Web;
 
 namespace CommonComponents
 {
-    public class GETRequest : WebShared
+    public class GetRequest : WebShared
     {
-        public GETRequest(string baseUrl, string urlParameters, string body, Dictionary<string, string> headers): base(baseUrl, urlParameters, body, headers)
+        public GetRequest(string baseUrl, string urlParameters, string body, Dictionary<string, string> headers): base(baseUrl, urlParameters, body, headers)
         {
             WebShared.method = "GET";
         }

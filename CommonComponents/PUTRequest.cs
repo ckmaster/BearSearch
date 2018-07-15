@@ -8,9 +8,9 @@ using System.Web;
 
 namespace CommonComponents
 {
-    public class PUTRequest : WebShared
+    public class PutRequest : WebShared
     {
-        public PUTRequest(string baseUrl, string urlParameters, string body, Dictionary<string, string> headers) : base(baseUrl, urlParameters, body, headers)
+        public PutRequest(string baseUrl, string urlParameters, string body, Dictionary<string, string> headers) : base(baseUrl, urlParameters, body, headers)
         {
             WebShared.method = "PUT";
         }

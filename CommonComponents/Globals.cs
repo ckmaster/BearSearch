@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace CommonComponents
 {
-    class Globals
+    public class Globals
     {
-        public static Logger tikaLog = new Logger(@"TikaLog.log");
+        public static Logger logger = new Logger(@"C:\Users\ckmaster\Desktop\BearSearch.log");
     }
 }

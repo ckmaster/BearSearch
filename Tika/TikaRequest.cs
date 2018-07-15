@@ -4,35 +4,67 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CommonComponents;
-
-//Detect Stream - PUT Returns the expect content type (use the filename hint)
-//Meta - PUT return metadata in response body
-//Tika - PUT Return text in response body
-//remeta - recursive metadata, all embedded documents
-//unpack - return unpacked text with original filenames
-//Almost all the above methods support POST with multi-part form (useful for large files)
+using System.IO;
 
 namespace Tika
 {
     public class TikaRequest
     {
-        private string baseUrl = "http://localhost:9998/";
-        private string urlParameters;
-
+        private string baseUrl = "http://localhost:9998";
         public TikaRequest() {}
 
         public string GetDetectors()
         {
-            urlParameters = "/detectors";
+            string urlParameters = "/detectors";
             Dictionary<string, string> headers = new Dictionary<string, string>();
             headers.Add("Accept", "application/json");
-            GETRequest getRequest = new GETRequest(baseUrl, urlParameters, "", headers);
+            GetRequest getRequest = new GetRequest(baseUrl, urlParameters, "", headers);
             string responseBody = getRequest.GetResponseBody();
             return responseBody;
         }
 
-        public string 
+        public string DetectStream(string filePath)
+        {
+            string urlParameters = "/detect/stream";
+            Dictionary<string, string> headers = new Dictionary<string, string>();
+            string fileName = Path.GetFileName(filePath);
+            headers.Add("Content-Disposition", $"attachment; filename={fileName}");
+            PutRequest putRequest = new PutRequest(baseUrl, urlParameters, filePath, headers);
+            string responseBody = putRequest.GetResponseBody();
+            return responseBody;
+        }
 
-        
+        public string Meta(string filePath)
+        {
+            string urlParameters = "/meta";
+            Dictionary<string, string> headers = new Dictionary<string, string>();
+            headers.Add("Accept", "application/json");
+            string fileName = Path.GetFileName(filePath);
+            PutRequest putRequest = new PutRequest(baseUrl, urlParameters, filePath, headers);
+            string responseBody = putRequest.GetResponseBody();
+            return responseBody;
+        }
+
+        public string TikaXML(string filePath)
+        {
+            string urlParameters = "/tika";
+            Dictionary<string, string> headers = new Dictionary<string, string>();
+            headers.Add("Accept", "text/xml");
+            string fileName = Path.GetFileName(filePath);
+            PutRequest putRequest = new PutRequest(baseUrl, urlParameters, filePath, headers);
+            string responseBody = putRequest.GetResponseBody();
+            return responseBody;
+        }
+
+        public string TikaPlain(string filePath)
+        {
+            string urlParameters = "/tika";
+            Dictionary<string, string> headers = new Dictionary<string, string>();
+            headers.Add("Accept", "text/plain");
+            string fileName = Path.GetFileName(filePath);
+            PutRequest putRequest = new PutRequest(baseUrl, urlParameters, filePath, headers);
+            string responseBody = putRequest.GetResponseBody();
+            return responseBody;
+        }
     }
 }
