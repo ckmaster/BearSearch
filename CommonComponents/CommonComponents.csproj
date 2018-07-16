@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="DeleteRequest.cs" />
     <Compile Include="GetRequest.cs" />
+    <Compile Include="JsonManager.cs" />
     <Compile Include="XmlToJson.cs" />
     <Compile Include="PostRequest.cs" />
     <Compile Include="PutRequest.cs" />

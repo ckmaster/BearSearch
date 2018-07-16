@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Tika;
+using CommonComponents;
+using Elastic;
 
 namespace TestHarness
 {
@@ -17,10 +19,14 @@ namespace TestHarness
             foreach (string file in files)
             {
                 string xmlResponse = tikaRequest.TikaXML(file);
-                CommonComponents.XmlToJson xmlToJson = new CommonComponents.XmlToJson(xmlResponse);
+                XmlToJson xmlToJson = new XmlToJson(xmlResponse);
                 string jsonResponse = xmlToJson.Convert();
-                CommonComponents.Globals.logger.CreateOrAppend(jsonResponse);
-                //CommonComponents.Globals.logger.CreateOrAppend((tikaRequest.TikaXML(file) + "\n"));
+                //Globals.logger.CreateOrAppend(jsonResponse);
+                JsonManager jsonManager = new JsonManager(jsonResponse);
+                //Globals.logger.CreateOrAppend((tikaRequest.TikaXML(file) + "\n"));
+                Elastic.Program elasticProgram = new Elastic.Program();
+                //elasticProgram.IndexHighLevel(jsonManager.GenericDeserialize());
+                elasticProgram.IndexLowLevel(jsonResponse);
             }
         }
     }
