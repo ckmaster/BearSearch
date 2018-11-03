@@ -25,7 +25,7 @@ namespace Elastic
         {
             var settings = new ConnectionConfiguration(new Uri("http://localhost:9200")).RequestTimeout(TimeSpan.FromMinutes(2));
             var lowlevelClient = new ElasticLowLevelClient(settings);
-            var indexResponse = lowlevelClient.Index<BytesResponse>("people", "person", PostData.String(jsonBody));
+            var indexResponse = lowlevelClient.Index<BytesResponse>("gutenberg", "doc", PostData.String(jsonBody));
             byte[] responseBytes = indexResponse.Body;
             CommonComponents.Globals.logger.CreateOrAppend(responseBytes.ToString());
         }

@@ -61,9 +61,9 @@
       <Project>{e41a7738-0f76-4c9a-afe7-d11e2aca85ac}</Project>
       <Name>Elastic</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Tika\Tika.csproj">
+    <ProjectReference Include="..\Tika\TikaRest.csproj">
       <Project>{3226a2c7-c380-4e34-8097-19b7cfbf427b}</Project>
-      <Name>Tika</Name>
+      <Name>TikaRest</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

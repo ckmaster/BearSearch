@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using CommonComponents;
 using System.IO;
 
-namespace Tika
+namespace TikaRest
 {
     public class TikaRequest
     {

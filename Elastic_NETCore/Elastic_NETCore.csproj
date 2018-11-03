@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ElasticSearch" Version="1.4.2" />
+    <PackageReference Include="NEST" Version="6.4.0" />
+    <PackageReference Include="NEST.JsonNetSerializer" Version="6.4.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CommonComponents_NETCore\CommonComponents_NETCore.csproj" />
+  </ItemGroup>
+
+</Project>

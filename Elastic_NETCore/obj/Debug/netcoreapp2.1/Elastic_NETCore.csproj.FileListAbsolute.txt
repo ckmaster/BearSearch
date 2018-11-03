@@ -1,0 +1,9 @@
+C:\Users\ckmaster\source\repos\BearSearch\Elastic_NETCore\bin\Debug\netcoreapp2.1\Elastic_NETCore.deps.json
+C:\Users\ckmaster\source\repos\BearSearch\Elastic_NETCore\bin\Debug\netcoreapp2.1\Elastic_NETCore.runtimeconfig.json
+C:\Users\ckmaster\source\repos\BearSearch\Elastic_NETCore\bin\Debug\netcoreapp2.1\Elastic_NETCore.runtimeconfig.dev.json
+C:\Users\ckmaster\source\repos\BearSearch\Elastic_NETCore\bin\Debug\netcoreapp2.1\Elastic_NETCore.dll
+C:\Users\ckmaster\source\repos\BearSearch\Elastic_NETCore\obj\Debug\netcoreapp2.1\Elastic_NETCore.csprojAssemblyReference.cache
+C:\Users\ckmaster\source\repos\BearSearch\Elastic_NETCore\obj\Debug\netcoreapp2.1\Elastic_NETCore.csproj.CoreCompileInputs.cache
+C:\Users\ckmaster\source\repos\BearSearch\Elastic_NETCore\obj\Debug\netcoreapp2.1\Elastic_NETCore.AssemblyInfoInputs.cache
+C:\Users\ckmaster\source\repos\BearSearch\Elastic_NETCore\obj\Debug\netcoreapp2.1\Elastic_NETCore.AssemblyInfo.cs
+C:\Users\ckmaster\source\repos\BearSearch\Elastic_NETCore\bin\Debug\netcoreapp2.1\CommonComponents_NETCore.dll

@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonComponents", "CommonComponents\CommonComponents.csproj", "{5DC38CEE-0C40-4967-8960-80B8E46AFD28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tika", "Tika\Tika.csproj", "{3226A2C7-C380-4E34-8097-19B7CFBF427B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TikaRest", "Tika\TikaRest.csproj", "{3226A2C7-C380-4E34-8097-19B7CFBF427B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elastic", "Elastic\Elastic.csproj", "{E41A7738-0F76-4C9A-AFE7-D11E2ACA85AC}"
 EndProject
@@ -16,6 +16,24 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestHarness", "TestHarness\TestHarness.csproj", "{628A52D5-9E49-4EF1-B989-B3263722EE59}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageMagick", "ImageMagick\ImageMagick.csproj", "{8E0D2424-BF5D-409E-A6BC-7A0AFA4AE15F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TikaDotNet", "TikaDotNet\TikaDotNet.csproj", "{110DA09B-452C-4CB6-8759-7804564D227F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonComponents_NETCore", "CommonComponents_NETCore\CommonComponents_NETCore.csproj", "{82EEBE7C-02E4-4E8C-8E13-A452A3050620}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elastic_NETCore", "Elastic_NETCore\Elastic_NETCore.csproj", "{05FBD179-A0B6-4D0B-AF3C-69678B272593}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageMagick_NETCore", "ImageMagick_NETCore\ImageMagick_NETCore.csproj", "{F94D8E97-2CA3-4EDB-814C-CAF9CD6E9C3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibreOffice_NETCore", "LibreOffice_NETCore\LibreOffice_NETCore.csproj", "{54B79724-6319-4E98-87F4-90A6A2705E03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tesseract_NETCore", "Tesseract_NETCore\Tesseract_NETCore.csproj", "{EAC60FDB-B8B0-48CA-A8B2-B449FE9A9C99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestHarness_NETCore", "TestHarness_NETCore\TestHarness_NETCore.csproj", "{17954E29-B67B-4670-A726-C9536F111A37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TikaDotNet_NETCore", "TikaDotNet_NETCore\TikaDotNet_NETCore.csproj", "{CE16C77E-27CD-4998-B0B6-F8925CEC9DB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TikeRest_NETCore", "TikeRest_NETCore\TikeRest_NETCore.csproj", "{41583723-C736-432D-B441-98715213D44D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +69,42 @@ Global
 		{8E0D2424-BF5D-409E-A6BC-7A0AFA4AE15F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E0D2424-BF5D-409E-A6BC-7A0AFA4AE15F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E0D2424-BF5D-409E-A6BC-7A0AFA4AE15F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{110DA09B-452C-4CB6-8759-7804564D227F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{110DA09B-452C-4CB6-8759-7804564D227F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{110DA09B-452C-4CB6-8759-7804564D227F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{110DA09B-452C-4CB6-8759-7804564D227F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82EEBE7C-02E4-4E8C-8E13-A452A3050620}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82EEBE7C-02E4-4E8C-8E13-A452A3050620}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82EEBE7C-02E4-4E8C-8E13-A452A3050620}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82EEBE7C-02E4-4E8C-8E13-A452A3050620}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05FBD179-A0B6-4D0B-AF3C-69678B272593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05FBD179-A0B6-4D0B-AF3C-69678B272593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05FBD179-A0B6-4D0B-AF3C-69678B272593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05FBD179-A0B6-4D0B-AF3C-69678B272593}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F94D8E97-2CA3-4EDB-814C-CAF9CD6E9C3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F94D8E97-2CA3-4EDB-814C-CAF9CD6E9C3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F94D8E97-2CA3-4EDB-814C-CAF9CD6E9C3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F94D8E97-2CA3-4EDB-814C-CAF9CD6E9C3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54B79724-6319-4E98-87F4-90A6A2705E03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54B79724-6319-4E98-87F4-90A6A2705E03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54B79724-6319-4E98-87F4-90A6A2705E03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54B79724-6319-4E98-87F4-90A6A2705E03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAC60FDB-B8B0-48CA-A8B2-B449FE9A9C99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAC60FDB-B8B0-48CA-A8B2-B449FE9A9C99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAC60FDB-B8B0-48CA-A8B2-B449FE9A9C99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAC60FDB-B8B0-48CA-A8B2-B449FE9A9C99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17954E29-B67B-4670-A726-C9536F111A37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17954E29-B67B-4670-A726-C9536F111A37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17954E29-B67B-4670-A726-C9536F111A37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17954E29-B67B-4670-A726-C9536F111A37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE16C77E-27CD-4998-B0B6-F8925CEC9DB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE16C77E-27CD-4998-B0B6-F8925CEC9DB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE16C77E-27CD-4998-B0B6-F8925CEC9DB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE16C77E-27CD-4998-B0B6-F8925CEC9DB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41583723-C736-432D-B441-98715213D44D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41583723-C736-432D-B441-98715213D44D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41583723-C736-432D-B441-98715213D44D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41583723-C736-432D-B441-98715213D44D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

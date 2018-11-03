@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3226A2C7-C380-4E34-8097-19B7CFBF427B}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <RootNamespace>Tika</RootNamespace>
-    <AssemblyName>Tika</AssemblyName>
+    <ProjectGuid>{110DA09B-452C-4CB6-8759-7804564D227F}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>TikaDotNet</RootNamespace>
+    <AssemblyName>TikaDotNet</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -31,9 +31,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject />
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -45,19 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FileDiscovery.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TikaDotNet.cs" />
-    <Compile Include="TikaRequest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\CommonComponents\CommonComponents.csproj">
-      <Project>{5dc38cee-0c40-4967-8960-80b8e46afd28}</Project>
-      <Name>CommonComponents</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

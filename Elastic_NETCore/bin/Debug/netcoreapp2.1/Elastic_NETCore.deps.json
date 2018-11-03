@@ -1,0 +1,94 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "512b0ff63f49d3c655613b9d78b1245bc3b27cca"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "Elastic_NETCore/1.0.0": {
+        "dependencies": {
+          "NEST": "6.4.0",
+          "NEST.JsonNetSerializer": "6.4.0"
+        },
+        "runtime": {
+          "Elastic_NETCore.dll": {}
+        }
+      },
+      "Elasticsearch.Net/6.4.0": {
+        "runtime": {
+          "lib/netstandard2.0/Elasticsearch.Net.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.4.0.0"
+          }
+        }
+      },
+      "NEST/6.4.0": {
+        "dependencies": {
+          "Elasticsearch.Net": "6.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Nest.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.4.0.0"
+          }
+        }
+      },
+      "NEST.JsonNetSerializer/6.4.0": {
+        "dependencies": {
+          "NEST": "6.4.0",
+          "Newtonsoft.Json": "11.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Nest.JsonNetSerializer.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.4.0.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/11.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.1.21818"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Elastic_NETCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Elasticsearch.Net/6.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vOnMRC2C2iCfMyMivNhzbRndE4TVmfiXrqNwx87VMlHcOFkjScOpVB3ZufLD96cfs1XooIbY68j7Htf+joFDUA==",
+      "path": "elasticsearch.net/6.4.0",
+      "hashPath": "elasticsearch.net.6.4.0.nupkg.sha512"
+    },
+    "NEST/6.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EfMc+LCDqfA30DZ0byyMFX93f+ku1sM1wDw6tQByBftI8ggVSPG+KHYAswVuWGEGMDCSoWyFOIU0qp+OHusqrQ==",
+      "path": "nest/6.4.0",
+      "hashPath": "nest.6.4.0.nupkg.sha512"
+    },
+    "NEST.JsonNetSerializer/6.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-K2RTuqUdAXPXmOPM/hNENAiltntB1m5PCzdVGH2RV+q/gyqy4lb7FE0eZ24URciworK81zLFVYO/Qdipwr3WKg==",
+      "path": "nest.jsonnetserializer/6.4.0",
+      "hashPath": "nest.jsonnetserializer.6.4.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/11.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wrf5LBX1omJ/8HiYKby22uBV7MPCfwxXWY39w28VZJjYdN1Cb3eiTkkWk5gAkkdW+N/A0hgSmqtiPoAwsb07qg==",
+      "path": "newtonsoft.json/11.0.1",
+      "hashPath": "newtonsoft.json.11.0.1.nupkg.sha512"
+    }
+  }
+}
