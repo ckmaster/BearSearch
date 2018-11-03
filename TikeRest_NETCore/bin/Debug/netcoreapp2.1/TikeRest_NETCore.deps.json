@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.1": {
-      "CommonComponents_NETCore/1.0.0": {
+      "TikeRest_NETCore/1.0.0": {
         "dependencies": {
-          "Newtonsoft.Json": "11.0.2"
+          "CommonComponents_NETCore": "1.0.0"
         },
         "runtime": {
-          "CommonComponents_NETCore.dll": {}
+          "TikeRest_NETCore.dll": {}
         }
       },
       "Newtonsoft.Json/11.0.2": {
@@ -21,11 +21,19 @@
             "fileVersion": "11.0.2.21924"
           }
         }
+      },
+      "CommonComponents_NETCore/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "CommonComponents_NETCore.dll": {}
+        }
       }
     }
   },
   "libraries": {
-    "CommonComponents_NETCore/1.0.0": {
+    "TikeRest_NETCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -36,6 +44,11 @@
       "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
       "path": "newtonsoft.json/11.0.2",
       "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
+    },
+    "CommonComponents_NETCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

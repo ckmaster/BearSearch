@@ -6,16 +6,14 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.1": {
-      "Elastic_NETCore/1.0.0": {
+      "TestHarness_NETCore/1.0.0": {
         "dependencies": {
           "CommonComponents_NETCore": "1.0.0",
-          "ElasticSearch": "1.4.2",
-          "NEST": "6.4.0",
-          "NEST.JsonNetSerializer": "6.4.0",
-          "Newtonsoft.Json": "11.0.2"
+          "Elastic_NETCore": "1.0.0",
+          "TikeRest_NETCore": "1.0.0"
         },
         "runtime": {
-          "Elastic_NETCore.dll": {}
+          "TestHarness_NETCore.dll": {}
         }
       },
       "ElasticSearch/1.4.2": {},
@@ -65,11 +63,31 @@
         "runtime": {
           "CommonComponents_NETCore.dll": {}
         }
+      },
+      "Elastic_NETCore/1.0.0": {
+        "dependencies": {
+          "CommonComponents_NETCore": "1.0.0",
+          "ElasticSearch": "1.4.2",
+          "NEST": "6.4.0",
+          "NEST.JsonNetSerializer": "6.4.0",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "Elastic_NETCore.dll": {}
+        }
+      },
+      "TikeRest_NETCore/1.0.0": {
+        "dependencies": {
+          "CommonComponents_NETCore": "1.0.0"
+        },
+        "runtime": {
+          "TikeRest_NETCore.dll": {}
+        }
       }
     }
   },
   "libraries": {
-    "Elastic_NETCore/1.0.0": {
+    "TestHarness_NETCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -110,6 +128,16 @@
       "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
     },
     "CommonComponents_NETCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Elastic_NETCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TikeRest_NETCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

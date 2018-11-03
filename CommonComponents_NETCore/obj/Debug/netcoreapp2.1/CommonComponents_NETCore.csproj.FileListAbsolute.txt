@@ -4,3 +4,6 @@ C:\Users\ckmaster\source\repos\BearSearch\CommonComponents_NETCore\obj\Debug\net
 C:\Users\ckmaster\source\repos\BearSearch\CommonComponents_NETCore\obj\Debug\netcoreapp2.1\CommonComponents_NETCore.csproj.CoreCompileInputs.cache
 C:\Users\ckmaster\source\repos\BearSearch\CommonComponents_NETCore\obj\Debug\netcoreapp2.1\CommonComponents_NETCore.AssemblyInfoInputs.cache
 C:\Users\ckmaster\source\repos\BearSearch\CommonComponents_NETCore\obj\Debug\netcoreapp2.1\CommonComponents_NETCore.AssemblyInfo.cs
+C:\Users\ckmaster\source\repos\BearSearch\CommonComponents_NETCore\bin\Debug\netcoreapp2.1\CommonComponents_NETCore.pdb
+C:\Users\ckmaster\source\repos\BearSearch\CommonComponents_NETCore\obj\Debug\netcoreapp2.1\CommonComponents_NETCore.dll
+C:\Users\ckmaster\source\repos\BearSearch\CommonComponents_NETCore\obj\Debug\netcoreapp2.1\CommonComponents_NETCore.pdb
