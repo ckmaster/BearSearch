@@ -3,37 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonComponents", "CommonComponents\CommonComponents.csproj", "{5DC38CEE-0C40-4967-8960-80B8E46AFD28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonComponents_NETCore", "CommonComponents_NETCore\CommonComponents_NETCore.csproj", "{82EEBE7C-02E4-4E8C-8E13-A452A3050620}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TikaRest", "Tika\TikaRest.csproj", "{3226A2C7-C380-4E34-8097-19B7CFBF427B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Elastic_NETCore", "Elastic_NETCore\Elastic_NETCore.csproj", "{05FBD179-A0B6-4D0B-AF3C-69678B272593}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elastic", "Elastic\Elastic.csproj", "{E41A7738-0F76-4C9A-AFE7-D11E2ACA85AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageMagick_NETCore", "ImageMagick_NETCore\ImageMagick_NETCore.csproj", "{F94D8E97-2CA3-4EDB-814C-CAF9CD6E9C3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibreOffice", "LibreOffice\LibreOffice.csproj", "{6475AFC4-5592-4177-BE4A-3387FCC78E39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibreOffice_NETCore", "LibreOffice_NETCore\LibreOffice_NETCore.csproj", "{54B79724-6319-4E98-87F4-90A6A2705E03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tesseract", "Tesseract\Tesseract.csproj", "{1312E2B7-F9D2-4C24-BF3F-AE0E5D5C5882}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tesseract_NETCore", "Tesseract_NETCore\Tesseract_NETCore.csproj", "{EAC60FDB-B8B0-48CA-A8B2-B449FE9A9C99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestHarness", "TestHarness\TestHarness.csproj", "{628A52D5-9E49-4EF1-B989-B3263722EE59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestHarness_NETCore", "TestHarness_NETCore\TestHarness_NETCore.csproj", "{17954E29-B67B-4670-A726-C9536F111A37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageMagick", "ImageMagick\ImageMagick.csproj", "{8E0D2424-BF5D-409E-A6BC-7A0AFA4AE15F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TikaDotNet_NETCore", "TikaDotNet_NETCore\TikaDotNet_NETCore.csproj", "{CE16C77E-27CD-4998-B0B6-F8925CEC9DB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TikaDotNet", "TikaDotNet\TikaDotNet.csproj", "{110DA09B-452C-4CB6-8759-7804564D227F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonComponents_NETCore", "CommonComponents_NETCore\CommonComponents_NETCore.csproj", "{82EEBE7C-02E4-4E8C-8E13-A452A3050620}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elastic_NETCore", "Elastic_NETCore\Elastic_NETCore.csproj", "{05FBD179-A0B6-4D0B-AF3C-69678B272593}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageMagick_NETCore", "ImageMagick_NETCore\ImageMagick_NETCore.csproj", "{F94D8E97-2CA3-4EDB-814C-CAF9CD6E9C3B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibreOffice_NETCore", "LibreOffice_NETCore\LibreOffice_NETCore.csproj", "{54B79724-6319-4E98-87F4-90A6A2705E03}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tesseract_NETCore", "Tesseract_NETCore\Tesseract_NETCore.csproj", "{EAC60FDB-B8B0-48CA-A8B2-B449FE9A9C99}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestHarness_NETCore", "TestHarness_NETCore\TestHarness_NETCore.csproj", "{17954E29-B67B-4670-A726-C9536F111A37}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TikaDotNet_NETCore", "TikaDotNet_NETCore\TikaDotNet_NETCore.csproj", "{CE16C77E-27CD-4998-B0B6-F8925CEC9DB2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TikeRest_NETCore", "TikeRest_NETCore\TikeRest_NETCore.csproj", "{41583723-C736-432D-B441-98715213D44D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TikeRest_NETCore", "TikeRest_NETCore\TikeRest_NETCore.csproj", "{41583723-C736-432D-B441-98715213D44D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,38 +25,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5DC38CEE-0C40-4967-8960-80B8E46AFD28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5DC38CEE-0C40-4967-8960-80B8E46AFD28}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5DC38CEE-0C40-4967-8960-80B8E46AFD28}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5DC38CEE-0C40-4967-8960-80B8E46AFD28}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3226A2C7-C380-4E34-8097-19B7CFBF427B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3226A2C7-C380-4E34-8097-19B7CFBF427B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3226A2C7-C380-4E34-8097-19B7CFBF427B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3226A2C7-C380-4E34-8097-19B7CFBF427B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E41A7738-0F76-4C9A-AFE7-D11E2ACA85AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E41A7738-0F76-4C9A-AFE7-D11E2ACA85AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E41A7738-0F76-4C9A-AFE7-D11E2ACA85AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E41A7738-0F76-4C9A-AFE7-D11E2ACA85AC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6475AFC4-5592-4177-BE4A-3387FCC78E39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6475AFC4-5592-4177-BE4A-3387FCC78E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6475AFC4-5592-4177-BE4A-3387FCC78E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6475AFC4-5592-4177-BE4A-3387FCC78E39}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1312E2B7-F9D2-4C24-BF3F-AE0E5D5C5882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1312E2B7-F9D2-4C24-BF3F-AE0E5D5C5882}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1312E2B7-F9D2-4C24-BF3F-AE0E5D5C5882}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1312E2B7-F9D2-4C24-BF3F-AE0E5D5C5882}.Release|Any CPU.Build.0 = Release|Any CPU
-		{628A52D5-9E49-4EF1-B989-B3263722EE59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{628A52D5-9E49-4EF1-B989-B3263722EE59}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{628A52D5-9E49-4EF1-B989-B3263722EE59}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{628A52D5-9E49-4EF1-B989-B3263722EE59}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8E0D2424-BF5D-409E-A6BC-7A0AFA4AE15F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8E0D2424-BF5D-409E-A6BC-7A0AFA4AE15F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8E0D2424-BF5D-409E-A6BC-7A0AFA4AE15F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8E0D2424-BF5D-409E-A6BC-7A0AFA4AE15F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{110DA09B-452C-4CB6-8759-7804564D227F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{110DA09B-452C-4CB6-8759-7804564D227F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{110DA09B-452C-4CB6-8759-7804564D227F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{110DA09B-452C-4CB6-8759-7804564D227F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{82EEBE7C-02E4-4E8C-8E13-A452A3050620}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{82EEBE7C-02E4-4E8C-8E13-A452A3050620}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82EEBE7C-02E4-4E8C-8E13-A452A3050620}.Release|Any CPU.ActiveCfg = Release|Any CPU
