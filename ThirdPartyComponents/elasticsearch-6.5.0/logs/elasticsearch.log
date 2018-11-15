@@ -1,0 +1,91 @@
+[2018-11-15T11:31:50,494][INFO ][o.e.e.NodeEnvironment    ] [LRn4L7A] using [1] data paths, mounts [[(C:)]], net usable_space [31.2gb], net total_space [231.9gb], types [NTFS]
+[2018-11-15T11:31:50,497][INFO ][o.e.e.NodeEnvironment    ] [LRn4L7A] heap size [990.7mb], compressed ordinary object pointers [true]
+[2018-11-15T11:31:50,500][INFO ][o.e.n.Node               ] [LRn4L7A] node name derived from node ID [LRn4L7A1SEqRsi5_WJMVhg]; set [node.name] to override
+[2018-11-15T11:31:50,501][INFO ][o.e.n.Node               ] [LRn4L7A] version[6.5.0], pid[13000], build[default/zip/816e6f6/2018-11-09T18:58:36.352602Z], OS[Windows 10/10.0/amd64], JVM[AdoptOpenJDK/OpenJDK 64-Bit Server VM/11.0.1/11.0.1+13]
+[2018-11-15T11:31:50,501][INFO ][o.e.n.Node               ] [LRn4L7A] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=C:\Users\ckmaster\AppData\Local\Temp\elasticsearch, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -Xlog:gc*,gc+age=trace,safepoint:file=logs/gc.log:utctime,pid,tags:filecount=32,filesize=64m, -Djava.locale.providers=COMPAT, -XX:UseAVX=2, -Delasticsearch, -Des.path.home=C:\Users\ckmaster\Downloads\elasticsearch-6.5.0, -Des.path.conf=C:\Users\ckmaster\Downloads\elasticsearch-6.5.0\config, -Des.distribution.flavor=default, -Des.distribution.type=zip]
+[2018-11-15T11:31:55,244][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [aggs-matrix-stats]
+[2018-11-15T11:31:55,245][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [analysis-common]
+[2018-11-15T11:31:55,245][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [ingest-common]
+[2018-11-15T11:31:55,246][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [lang-expression]
+[2018-11-15T11:31:55,246][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [lang-mustache]
+[2018-11-15T11:31:55,247][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [lang-painless]
+[2018-11-15T11:31:55,247][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [mapper-extras]
+[2018-11-15T11:31:55,248][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [parent-join]
+[2018-11-15T11:31:55,248][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [percolator]
+[2018-11-15T11:31:55,248][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [rank-eval]
+[2018-11-15T11:31:55,249][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [reindex]
+[2018-11-15T11:31:55,249][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [repository-url]
+[2018-11-15T11:31:55,249][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [transport-netty4]
+[2018-11-15T11:31:55,249][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [tribe]
+[2018-11-15T11:31:55,249][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [x-pack-ccr]
+[2018-11-15T11:31:55,250][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [x-pack-core]
+[2018-11-15T11:31:55,250][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [x-pack-deprecation]
+[2018-11-15T11:31:55,250][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [x-pack-graph]
+[2018-11-15T11:31:55,250][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [x-pack-logstash]
+[2018-11-15T11:31:55,250][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [x-pack-ml]
+[2018-11-15T11:31:55,251][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [x-pack-monitoring]
+[2018-11-15T11:31:55,251][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [x-pack-rollup]
+[2018-11-15T11:31:55,251][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [x-pack-security]
+[2018-11-15T11:31:55,251][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [x-pack-sql]
+[2018-11-15T11:31:55,251][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [x-pack-upgrade]
+[2018-11-15T11:31:55,252][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [x-pack-watcher]
+[2018-11-15T11:31:55,252][INFO ][o.e.p.PluginsService     ] [LRn4L7A] no plugins loaded
+[2018-11-15T11:31:59,866][INFO ][o.e.x.s.a.s.FileRolesStore] [LRn4L7A] parsed [0] roles from file [C:\Users\ckmaster\Downloads\elasticsearch-6.5.0\config\roles.yml]
+[2018-11-15T11:32:00,544][INFO ][o.e.x.m.j.p.l.CppLogMessageHandler] [LRn4L7A] [controller/1040] [Main.cc@109] controller (64 bit): Version 6.5.0 (Build 71882a589e5556) Copyright (c) 2018 Elasticsearch BV
+[2018-11-15T11:32:01,171][DEBUG][o.e.a.ActionModule       ] [LRn4L7A] Using REST wrapper from plugin org.elasticsearch.xpack.security.Security
+[2018-11-15T11:32:01,477][INFO ][o.e.d.DiscoveryModule    ] [LRn4L7A] using discovery type [zen] and host providers [settings]
+[2018-11-15T11:32:02,751][INFO ][o.e.n.Node               ] [LRn4L7A] initialized
+[2018-11-15T11:32:02,752][INFO ][o.e.n.Node               ] [LRn4L7A] starting ...
+[2018-11-15T11:32:03,561][INFO ][o.e.t.TransportService   ] [LRn4L7A] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2018-11-15T11:32:06,615][INFO ][o.e.c.s.MasterService    ] [LRn4L7A] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {LRn4L7A}{LRn4L7A1SEqRsi5_WJMVhg}{M8Kbj9LGQGWVHMieA5ddHQ}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8533147648, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}
+[2018-11-15T11:32:06,621][INFO ][o.e.c.s.ClusterApplierService] [LRn4L7A] new_master {LRn4L7A}{LRn4L7A1SEqRsi5_WJMVhg}{M8Kbj9LGQGWVHMieA5ddHQ}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8533147648, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}, reason: apply cluster state (from master [master {LRn4L7A}{LRn4L7A1SEqRsi5_WJMVhg}{M8Kbj9LGQGWVHMieA5ddHQ}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8533147648, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2018-11-15T11:32:06,706][WARN ][o.e.x.s.a.s.m.NativeRoleMappingStore] [LRn4L7A] Failed to clear cache for realms [[]]
+[2018-11-15T11:32:06,773][INFO ][o.e.g.GatewayService     ] [LRn4L7A] recovered [0] indices into cluster_state
+[2018-11-15T11:32:07,014][INFO ][o.e.c.m.MetaDataIndexTemplateService] [LRn4L7A] adding template [.watch-history-9] for index patterns [.watcher-history-9*]
+[2018-11-15T11:32:07,177][INFO ][o.e.c.m.MetaDataIndexTemplateService] [LRn4L7A] adding template [.watches] for index patterns [.watches*]
+[2018-11-15T11:32:07,288][INFO ][o.e.c.m.MetaDataIndexTemplateService] [LRn4L7A] adding template [.triggered_watches] for index patterns [.triggered_watches*]
+[2018-11-15T11:32:07,400][INFO ][o.e.c.m.MetaDataIndexTemplateService] [LRn4L7A] adding template [.monitoring-logstash] for index patterns [.monitoring-logstash-6-*]
+[2018-11-15T11:32:07,515][INFO ][o.e.c.m.MetaDataIndexTemplateService] [LRn4L7A] adding template [.monitoring-es] for index patterns [.monitoring-es-6-*]
+[2018-11-15T11:32:07,636][INFO ][o.e.c.m.MetaDataIndexTemplateService] [LRn4L7A] adding template [.monitoring-alerts] for index patterns [.monitoring-alerts-6]
+[2018-11-15T11:32:07,709][INFO ][o.e.x.s.t.n.SecurityNetty4HttpServerTransport] [LRn4L7A] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2018-11-15T11:32:07,692][INFO ][o.e.c.m.MetaDataIndexTemplateService] [LRn4L7A] adding template [.monitoring-beats] for index patterns [.monitoring-beats-6-*]
+[2018-11-15T11:32:07,713][INFO ][o.e.n.Node               ] [LRn4L7A] started
+[2018-11-15T11:32:07,760][INFO ][o.e.c.m.MetaDataIndexTemplateService] [LRn4L7A] adding template [.monitoring-kibana] for index patterns [.monitoring-kibana-6-*]
+[2018-11-15T11:32:07,876][INFO ][o.e.l.LicenseService     ] [LRn4L7A] license [51b1a765-67cd-4a30-a385-a6f03e704781] mode [basic] - valid
+[2018-11-15T11:32:36,638][INFO ][o.e.c.r.a.DiskThresholdMonitor] [LRn4L7A] low disk watermark [85%] exceeded on [LRn4L7A1SEqRsi5_WJMVhg][LRn4L7A][C:\Users\ckmaster\Downloads\elasticsearch-6.5.0\data\nodes\0] free: 31.2gb[13.4%], replicas will not be assigned to this node
+[2018-11-15T11:33:06,641][INFO ][o.e.c.r.a.DiskThresholdMonitor] [LRn4L7A] low disk watermark [85%] exceeded on [LRn4L7A1SEqRsi5_WJMVhg][LRn4L7A][C:\Users\ckmaster\Downloads\elasticsearch-6.5.0\data\nodes\0] free: 31.2gb[13.4%], replicas will not be assigned to this node
+[2018-11-15T11:33:36,644][INFO ][o.e.c.r.a.DiskThresholdMonitor] [LRn4L7A] low disk watermark [85%] exceeded on [LRn4L7A1SEqRsi5_WJMVhg][LRn4L7A][C:\Users\ckmaster\Downloads\elasticsearch-6.5.0\data\nodes\0] free: 31.2gb[13.4%], replicas will not be assigned to this node
+[2018-11-15T11:34:06,647][INFO ][o.e.c.r.a.DiskThresholdMonitor] [LRn4L7A] low disk watermark [85%] exceeded on [LRn4L7A1SEqRsi5_WJMVhg][LRn4L7A][C:\Users\ckmaster\Downloads\elasticsearch-6.5.0\data\nodes\0] free: 31.2gb[13.4%], replicas will not be assigned to this node
+[2018-11-15T11:34:13,811][INFO ][o.e.c.m.MetaDataIndexTemplateService] [LRn4L7A] adding template [.management-beats] for index patterns [.management-beats]
+[2018-11-15T11:34:19,652][INFO ][o.e.c.m.MetaDataCreateIndexService] [LRn4L7A] [.kibana_1] creating index, cause [api], templates [], shards [1]/[1], mappings [doc]
+[2018-11-15T11:34:19,670][INFO ][o.e.c.r.a.AllocationService] [LRn4L7A] updating number_of_replicas to [0] for indices [.kibana_1]
+[2018-11-15T11:34:19,948][INFO ][o.e.c.r.a.AllocationService] [LRn4L7A] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[.kibana_1][0]] ...]).
+[2018-11-15T11:34:20,077][INFO ][o.e.c.m.MetaDataIndexTemplateService] [LRn4L7A] adding template [kibana_index_template:.kibana] for index patterns [.kibana]
+[2018-11-15T11:34:20,151][INFO ][o.e.c.m.MetaDataIndexTemplateService] [LRn4L7A] adding template [kibana_index_template:.kibana] for index patterns [.kibana]
+[2018-11-15T11:34:36,653][INFO ][o.e.c.r.a.DiskThresholdMonitor] [LRn4L7A] low disk watermark [85%] exceeded on [LRn4L7A1SEqRsi5_WJMVhg][LRn4L7A][C:\Users\ckmaster\Downloads\elasticsearch-6.5.0\data\nodes\0] free: 31.1gb[13.4%], replicas will not be assigned to this node
+[2018-11-15T11:35:06,656][INFO ][o.e.c.r.a.DiskThresholdMonitor] [LRn4L7A] low disk watermark [85%] exceeded on [LRn4L7A1SEqRsi5_WJMVhg][LRn4L7A][C:\Users\ckmaster\Downloads\elasticsearch-6.5.0\data\nodes\0] free: 31.1gb[13.4%], replicas will not be assigned to this node
+[2018-11-15T11:35:36,658][INFO ][o.e.c.r.a.DiskThresholdMonitor] [LRn4L7A] low disk watermark [85%] exceeded on [LRn4L7A1SEqRsi5_WJMVhg][LRn4L7A][C:\Users\ckmaster\Downloads\elasticsearch-6.5.0\data\nodes\0] free: 31.1gb[13.4%], replicas will not be assigned to this node
+[2018-11-15T11:36:06,664][INFO ][o.e.c.r.a.DiskThresholdMonitor] [LRn4L7A] low disk watermark [85%] exceeded on [LRn4L7A1SEqRsi5_WJMVhg][LRn4L7A][C:\Users\ckmaster\Downloads\elasticsearch-6.5.0\data\nodes\0] free: 31.1gb[13.4%], replicas will not be assigned to this node
+[2018-11-15T11:36:36,669][INFO ][o.e.c.r.a.DiskThresholdMonitor] [LRn4L7A] low disk watermark [85%] exceeded on [LRn4L7A1SEqRsi5_WJMVhg][LRn4L7A][C:\Users\ckmaster\Downloads\elasticsearch-6.5.0\data\nodes\0] free: 31.1gb[13.4%], replicas will not be assigned to this node
+[2018-11-15T11:37:06,671][INFO ][o.e.c.r.a.DiskThresholdMonitor] [LRn4L7A] low disk watermark [85%] exceeded on [LRn4L7A1SEqRsi5_WJMVhg][LRn4L7A][C:\Users\ckmaster\Downloads\elasticsearch-6.5.0\data\nodes\0] free: 31.1gb[13.4%], replicas will not be assigned to this node
+[2018-11-15T11:37:36,674][INFO ][o.e.c.r.a.DiskThresholdMonitor] [LRn4L7A] low disk watermark [85%] exceeded on [LRn4L7A1SEqRsi5_WJMVhg][LRn4L7A][C:\Users\ckmaster\Downloads\elasticsearch-6.5.0\data\nodes\0] free: 31.1gb[13.4%], replicas will not be assigned to this node
+[2018-11-15T11:38:06,675][INFO ][o.e.c.r.a.DiskThresholdMonitor] [LRn4L7A] low disk watermark [85%] exceeded on [LRn4L7A1SEqRsi5_WJMVhg][LRn4L7A][C:\Users\ckmaster\Downloads\elasticsearch-6.5.0\data\nodes\0] free: 31.1gb[13.4%], replicas will not be assigned to this node
+[2018-11-15T11:38:36,678][INFO ][o.e.c.r.a.DiskThresholdMonitor] [LRn4L7A] low disk watermark [85%] exceeded on [LRn4L7A1SEqRsi5_WJMVhg][LRn4L7A][C:\Users\ckmaster\Downloads\elasticsearch-6.5.0\data\nodes\0] free: 31.1gb[13.4%], replicas will not be assigned to this node
+[2018-11-15T11:39:06,680][INFO ][o.e.c.r.a.DiskThresholdMonitor] [LRn4L7A] low disk watermark [85%] exceeded on [LRn4L7A1SEqRsi5_WJMVhg][LRn4L7A][C:\Users\ckmaster\Downloads\elasticsearch-6.5.0\data\nodes\0] free: 31.1gb[13.4%], replicas will not be assigned to this node
+[2018-11-15T11:39:36,683][INFO ][o.e.c.r.a.DiskThresholdMonitor] [LRn4L7A] low disk watermark [85%] exceeded on [LRn4L7A1SEqRsi5_WJMVhg][LRn4L7A][C:\Users\ckmaster\Downloads\elasticsearch-6.5.0\data\nodes\0] free: 31.1gb[13.4%], replicas will not be assigned to this node
+[2018-11-15T11:40:06,686][INFO ][o.e.c.r.a.DiskThresholdMonitor] [LRn4L7A] low disk watermark [85%] exceeded on [LRn4L7A1SEqRsi5_WJMVhg][LRn4L7A][C:\Users\ckmaster\Downloads\elasticsearch-6.5.0\data\nodes\0] free: 31.1gb[13.4%], replicas will not be assigned to this node
+[2018-11-15T11:40:36,687][INFO ][o.e.c.r.a.DiskThresholdMonitor] [LRn4L7A] low disk watermark [85%] exceeded on [LRn4L7A1SEqRsi5_WJMVhg][LRn4L7A][C:\Users\ckmaster\Downloads\elasticsearch-6.5.0\data\nodes\0] free: 31.1gb[13.4%], replicas will not be assigned to this node
+[2018-11-15T11:41:06,690][INFO ][o.e.c.r.a.DiskThresholdMonitor] [LRn4L7A] low disk watermark [85%] exceeded on [LRn4L7A1SEqRsi5_WJMVhg][LRn4L7A][C:\Users\ckmaster\Downloads\elasticsearch-6.5.0\data\nodes\0] free: 31.1gb[13.4%], replicas will not be assigned to this node
+[2018-11-15T11:41:36,693][INFO ][o.e.c.r.a.DiskThresholdMonitor] [LRn4L7A] low disk watermark [85%] exceeded on [LRn4L7A1SEqRsi5_WJMVhg][LRn4L7A][C:\Users\ckmaster\Downloads\elasticsearch-6.5.0\data\nodes\0] free: 31.1gb[13.4%], replicas will not be assigned to this node
+[2018-11-15T11:42:06,695][INFO ][o.e.c.r.a.DiskThresholdMonitor] [LRn4L7A] low disk watermark [85%] exceeded on [LRn4L7A1SEqRsi5_WJMVhg][LRn4L7A][C:\Users\ckmaster\Downloads\elasticsearch-6.5.0\data\nodes\0] free: 31.1gb[13.4%], replicas will not be assigned to this node
+[2018-11-15T11:42:36,698][INFO ][o.e.c.r.a.DiskThresholdMonitor] [LRn4L7A] low disk watermark [85%] exceeded on [LRn4L7A1SEqRsi5_WJMVhg][LRn4L7A][C:\Users\ckmaster\Downloads\elasticsearch-6.5.0\data\nodes\0] free: 31.1gb[13.4%], replicas will not be assigned to this node
+[2018-11-15T11:43:06,700][INFO ][o.e.c.r.a.DiskThresholdMonitor] [LRn4L7A] low disk watermark [85%] exceeded on [LRn4L7A1SEqRsi5_WJMVhg][LRn4L7A][C:\Users\ckmaster\Downloads\elasticsearch-6.5.0\data\nodes\0] free: 31.1gb[13.4%], replicas will not be assigned to this node
+[2018-11-15T11:43:36,702][INFO ][o.e.c.r.a.DiskThresholdMonitor] [LRn4L7A] low disk watermark [85%] exceeded on [LRn4L7A1SEqRsi5_WJMVhg][LRn4L7A][C:\Users\ckmaster\Downloads\elasticsearch-6.5.0\data\nodes\0] free: 31.1gb[13.4%], replicas will not be assigned to this node
+[2018-11-15T11:44:06,705][INFO ][o.e.c.r.a.DiskThresholdMonitor] [LRn4L7A] low disk watermark [85%] exceeded on [LRn4L7A1SEqRsi5_WJMVhg][LRn4L7A][C:\Users\ckmaster\Downloads\elasticsearch-6.5.0\data\nodes\0] free: 31.1gb[13.4%], replicas will not be assigned to this node
+[2018-11-15T11:44:07,175][INFO ][o.e.n.Node               ] [LRn4L7A] stopping ...
+[2018-11-15T11:44:07,183][INFO ][o.e.x.w.WatcherService   ] [LRn4L7A] stopping watch service, reason [shutdown initiated]
+[2018-11-15T11:44:07,230][INFO ][o.e.x.m.j.p.l.CppLogMessageHandler] [LRn4L7A] [controller/1040] [Main.cc@148] Ml controller exiting
+[2018-11-15T11:44:07,233][INFO ][o.e.x.m.j.p.NativeController] [LRn4L7A] Native controller process has stopped - no new native processes can be started
+[2018-11-15T11:44:07,256][INFO ][o.e.n.Node               ] [LRn4L7A] stopped
+[2018-11-15T11:44:07,256][INFO ][o.e.n.Node               ] [LRn4L7A] closing ...
+[2018-11-15T11:44:07,274][INFO ][o.e.n.Node               ] [LRn4L7A] closed
