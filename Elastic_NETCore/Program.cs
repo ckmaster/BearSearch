@@ -14,7 +14,7 @@ namespace Elastic_NETCore
             ConnectionSettings settings = new ConnectionSettings(new Uri("http://localhost:9200")).DefaultIndex("gutenberg").DisableDirectStreaming();
             ElasticClient client = new ElasticClient(settings);
             IIndexResponse indexResponse = client.IndexDocument(jObject);
-            CommonComponents_NETCore.Globals.logger.CreateOrAppend(indexResponse.DebugInformation);
+            CommonComponents_NETStandard.Globals.logger.CreateOrAppend(indexResponse.DebugInformation);
         }
 
         public void IndexLowLevel (string jsonBody)
@@ -23,7 +23,7 @@ namespace Elastic_NETCore
             var lowlevelClient = new ElasticLowLevelClient(settings);
             var indexResponse = lowlevelClient.Index<BytesResponse>("gutenberg", "doc", PostData.String(jsonBody));
             byte[] responseBytes = indexResponse.Body;
-            CommonComponents_NETCore.Globals.logger.CreateOrAppend(responseBytes.ToString());
+            CommonComponents_NETStandard.Globals.logger.CreateOrAppend(responseBytes.ToString());
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿using System;
 using TikeRest_NETCore;
-using CommonComponents_NETCore;
+using CommonComponents_NETStandard;
 using Elastic_NETCore;
 
 namespace TestHarness_NETCore

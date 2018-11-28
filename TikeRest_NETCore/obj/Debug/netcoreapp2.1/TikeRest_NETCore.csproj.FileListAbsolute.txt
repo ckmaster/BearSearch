@@ -1,8 +1,6 @@
 C:\Users\ckmaster\source\repos\BearSearch\TikeRest_NETCore\bin\Debug\netcoreapp2.1\TikeRest_NETCore.deps.json
 C:\Users\ckmaster\source\repos\BearSearch\TikeRest_NETCore\bin\Debug\netcoreapp2.1\TikeRest_NETCore.dll
 C:\Users\ckmaster\source\repos\BearSearch\TikeRest_NETCore\bin\Debug\netcoreapp2.1\TikeRest_NETCore.pdb
-C:\Users\ckmaster\source\repos\BearSearch\TikeRest_NETCore\bin\Debug\netcoreapp2.1\CommonComponents_NETCore.dll
-C:\Users\ckmaster\source\repos\BearSearch\TikeRest_NETCore\bin\Debug\netcoreapp2.1\CommonComponents_NETCore.pdb
 C:\Users\ckmaster\source\repos\BearSearch\TikeRest_NETCore\obj\Debug\netcoreapp2.1\TikeRest_NETCore.csprojAssemblyReference.cache
 C:\Users\ckmaster\source\repos\BearSearch\TikeRest_NETCore\obj\Debug\netcoreapp2.1\TikeRest_NETCore.csproj.CoreCompileInputs.cache
 C:\Users\ckmaster\source\repos\BearSearch\TikeRest_NETCore\obj\Debug\netcoreapp2.1\TikeRest_NETCore.AssemblyInfoInputs.cache
@@ -10,3 +8,5 @@ C:\Users\ckmaster\source\repos\BearSearch\TikeRest_NETCore\obj\Debug\netcoreapp2
 C:\Users\ckmaster\source\repos\BearSearch\TikeRest_NETCore\obj\Debug\netcoreapp2.1\TikeRest_NETCore.csproj.CopyComplete
 C:\Users\ckmaster\source\repos\BearSearch\TikeRest_NETCore\obj\Debug\netcoreapp2.1\TikeRest_NETCore.dll
 C:\Users\ckmaster\source\repos\BearSearch\TikeRest_NETCore\obj\Debug\netcoreapp2.1\TikeRest_NETCore.pdb
+C:\Users\ckmaster\source\repos\BearSearch\TikeRest_NETCore\bin\Debug\netcoreapp2.1\CommonComponents_NETStandard.dll
+C:\Users\ckmaster\source\repos\BearSearch\TikeRest_NETCore\bin\Debug\netcoreapp2.1\CommonComponents_NETStandard.pdb

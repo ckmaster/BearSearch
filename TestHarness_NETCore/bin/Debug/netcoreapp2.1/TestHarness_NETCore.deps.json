@@ -1,15 +1,16 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "5afd609da6158f3ddd8a3d29291b117d09a4a0b2"
+    "signature": "385e79f6c96223b375daef201214cf4c04905ef4"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.1": {
       "TestHarness_NETCore/1.0.0": {
         "dependencies": {
-          "CommonComponents_NETCore": "1.0.0",
+          "CommonComponents_NETStandard": "1.0.0",
           "Elastic_NETCore": "1.0.0",
+          "OutlookCrawler_NETFramework": "1.0.0",
           "TikeRest_NETCore": "1.0.0"
         },
         "runtime": {
@@ -39,7 +40,7 @@
       "NEST.JsonNetSerializer/6.4.0": {
         "dependencies": {
           "NEST": "6.4.0",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "12.0.1"
         },
         "runtime": {
           "lib/netstandard2.0/Nest.JsonNetSerializer.dll": {
@@ -48,37 +49,45 @@
           }
         }
       },
-      "Newtonsoft.Json/11.0.2": {
+      "Newtonsoft.Json/12.0.1": {
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "assemblyVersion": "11.0.0.0",
-            "fileVersion": "11.0.2.21924"
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.1.22727"
           }
         }
       },
-      "CommonComponents_NETCore/1.0.0": {
+      "CommonComponents_NETStandard/1.0.0": {
         "dependencies": {
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "12.0.1"
         },
         "runtime": {
-          "CommonComponents_NETCore.dll": {}
+          "CommonComponents_NETStandard.dll": {}
         }
       },
       "Elastic_NETCore/1.0.0": {
         "dependencies": {
-          "CommonComponents_NETCore": "1.0.0",
+          "CommonComponents_NETStandard": "1.0.0",
           "ElasticSearch": "1.4.2",
           "NEST": "6.4.0",
           "NEST.JsonNetSerializer": "6.4.0",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "12.0.1"
         },
         "runtime": {
           "Elastic_NETCore.dll": {}
         }
       },
+      "OutlookCrawler_NETFramework/1.0.0": {
+        "dependencies": {
+          "CommonComponents_NETStandard": "1.0.0"
+        },
+        "runtime": {
+          "OutlookCrawler_NetFramework.exe": {}
+        }
+      },
       "TikeRest_NETCore/1.0.0": {
         "dependencies": {
-          "CommonComponents_NETCore": "1.0.0"
+          "CommonComponents_NETStandard": "1.0.0"
         },
         "runtime": {
           "TikeRest_NETCore.dll": {}
@@ -120,19 +129,24 @@
       "path": "nest.jsonnetserializer/6.4.0",
       "hashPath": "nest.jsonnetserializer.6.4.0.nupkg.sha512"
     },
-    "Newtonsoft.Json/11.0.2": {
+    "Newtonsoft.Json/12.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-znZGbws7E4BA9jxNZ7FuiIRI3C9hrgatVQSTKhIYZYNOud4M5VfGlTYi6RdYO5sQrebFuF/g9UEV3hOxDMXF6Q==",
-      "path": "newtonsoft.json/11.0.2",
-      "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
+      "sha512": "sha512-pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
+      "path": "newtonsoft.json/12.0.1",
+      "hashPath": "newtonsoft.json.12.0.1.nupkg.sha512"
     },
-    "CommonComponents_NETCore/1.0.0": {
+    "CommonComponents_NETStandard/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "Elastic_NETCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OutlookCrawler_NETFramework/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

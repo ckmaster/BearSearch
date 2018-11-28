@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using CommonComponents_NETCore;
+using CommonComponents_NETStandard;
 using System.IO;
 
 namespace TikeRest_NETCore

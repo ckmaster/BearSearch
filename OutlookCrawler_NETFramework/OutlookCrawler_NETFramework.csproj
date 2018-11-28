@@ -78,5 +78,11 @@
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CommonComponents_NETStandard\CommonComponents_NETStandard.csproj">
+      <Project>{da64115d-3919-49bb-8046-e2a8b668af8e}</Project>
+      <Name>CommonComponents_NETStandard</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

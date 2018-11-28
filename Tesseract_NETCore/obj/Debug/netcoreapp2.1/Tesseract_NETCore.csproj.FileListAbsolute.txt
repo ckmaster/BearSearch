@@ -1,9 +1,0 @@
-C:\Users\ckmaster\source\repos\BearSearch\Tesseract_NETCore\bin\Debug\netcoreapp2.1\Tesseract_NETCore.deps.json
-C:\Users\ckmaster\source\repos\BearSearch\Tesseract_NETCore\bin\Debug\netcoreapp2.1\Tesseract_NETCore.dll
-C:\Users\ckmaster\source\repos\BearSearch\Tesseract_NETCore\bin\Debug\netcoreapp2.1\Tesseract_NETCore.pdb
-C:\Users\ckmaster\source\repos\BearSearch\Tesseract_NETCore\obj\Debug\netcoreapp2.1\Tesseract_NETCore.csprojAssemblyReference.cache
-C:\Users\ckmaster\source\repos\BearSearch\Tesseract_NETCore\obj\Debug\netcoreapp2.1\Tesseract_NETCore.csproj.CoreCompileInputs.cache
-C:\Users\ckmaster\source\repos\BearSearch\Tesseract_NETCore\obj\Debug\netcoreapp2.1\Tesseract_NETCore.AssemblyInfoInputs.cache
-C:\Users\ckmaster\source\repos\BearSearch\Tesseract_NETCore\obj\Debug\netcoreapp2.1\Tesseract_NETCore.AssemblyInfo.cs
-C:\Users\ckmaster\source\repos\BearSearch\Tesseract_NETCore\obj\Debug\netcoreapp2.1\Tesseract_NETCore.dll
-C:\Users\ckmaster\source\repos\BearSearch\Tesseract_NETCore\obj\Debug\netcoreapp2.1\Tesseract_NETCore.pdb

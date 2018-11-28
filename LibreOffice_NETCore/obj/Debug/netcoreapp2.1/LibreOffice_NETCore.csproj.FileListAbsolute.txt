@@ -1,9 +1,0 @@
-C:\Users\ckmaster\source\repos\BearSearch\LibreOffice_NETCore\bin\Debug\netcoreapp2.1\LibreOffice_NETCore.deps.json
-C:\Users\ckmaster\source\repos\BearSearch\LibreOffice_NETCore\bin\Debug\netcoreapp2.1\LibreOffice_NETCore.dll
-C:\Users\ckmaster\source\repos\BearSearch\LibreOffice_NETCore\bin\Debug\netcoreapp2.1\LibreOffice_NETCore.pdb
-C:\Users\ckmaster\source\repos\BearSearch\LibreOffice_NETCore\obj\Debug\netcoreapp2.1\LibreOffice_NETCore.csprojAssemblyReference.cache
-C:\Users\ckmaster\source\repos\BearSearch\LibreOffice_NETCore\obj\Debug\netcoreapp2.1\LibreOffice_NETCore.csproj.CoreCompileInputs.cache
-C:\Users\ckmaster\source\repos\BearSearch\LibreOffice_NETCore\obj\Debug\netcoreapp2.1\LibreOffice_NETCore.AssemblyInfoInputs.cache
-C:\Users\ckmaster\source\repos\BearSearch\LibreOffice_NETCore\obj\Debug\netcoreapp2.1\LibreOffice_NETCore.AssemblyInfo.cs
-C:\Users\ckmaster\source\repos\BearSearch\LibreOffice_NETCore\obj\Debug\netcoreapp2.1\LibreOffice_NETCore.dll
-C:\Users\ckmaster\source\repos\BearSearch\LibreOffice_NETCore\obj\Debug\netcoreapp2.1\LibreOffice_NETCore.pdb

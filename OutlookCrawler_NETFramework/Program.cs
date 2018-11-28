@@ -29,12 +29,14 @@ namespace OutlookCrawler_NETFramework
                 for (int i=1; i<=subFolder.Items.Count;i++)
                 {
                     item = (MailItem)subFolder.Items[i];
-                    Console.WriteLine("Item: {0}", i.ToString());
-                    Console.WriteLine("Subject: {0}", item.Subject);
-                    Console.WriteLine("Sent: {0} {1}", item.SentOn.ToLongDateString(), item.SentOn.ToLongTimeString());
-                    Console.WriteLine("Categories: {0}", item.Categories);
-                    Console.WriteLine("Body: {0}", item.Body);
-                    Console.WriteLine("HTMLBody: {0}", item.HTMLBody);
+                    //Console.WriteLine("Item: {0}", i.ToString());
+                    //Console.WriteLine("Subject: {0}", item.Subject);
+                    //Console.WriteLine("Sent: {0} {1}", item.SentOn.ToLongDateString(), item.SentOn.ToLongTimeString());
+                    //Console.WriteLine("Categories: {0}", item.Categories);
+                    CommonComponents_NETStandard.Logger logger = new CommonComponents_NETStandard.Logger($"{i}.log");
+                    logger.CreateOrAppend(item.Body);
+                    CommonComponents_NETStandard.Logger htmlLogger = new CommonComponents_NETStandard.Logger($"{i}_html.log");
+                    htmlLogger.CreateOrAppend(item.HTMLBody);
                 }
             }
             catch (System.Exception e)
@@ -47,7 +49,6 @@ namespace OutlookCrawler_NETFramework
                 app = null;
                 inboxFolder = null;
             }
-            Console.ReadLine();
         }
     }
 }

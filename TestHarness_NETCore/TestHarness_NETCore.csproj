@@ -7,8 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CommonComponents_NETCore\CommonComponents_NETCore.csproj" />
+    <ProjectReference Include="..\CommonComponents_NETStandard\CommonComponents_NETStandard.csproj" />
     <ProjectReference Include="..\Elastic_NETCore\Elastic_NETCore.csproj" />
+    <ProjectReference Include="..\OutlookCrawler_NetFramework\OutlookCrawler_NETFramework.csproj" />
     <ProjectReference Include="..\TikeRest_NETCore\TikeRest_NETCore.csproj" />
   </ItemGroup>
 

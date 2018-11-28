@@ -245,7 +245,7 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "Newtonsoft.Json/11.0.2": {
+      "Newtonsoft.Json/12.0.1": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
@@ -254,28 +254,28 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "CommonComponents_NETCore/1.0.0": {
+      "CommonComponents_NETStandard/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
+        "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "12.0.1"
         },
         "compile": {
-          "bin/placeholder/CommonComponents_NETCore.dll": {}
+          "bin/placeholder/CommonComponents_NETStandard.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CommonComponents_NETCore.dll": {}
+          "bin/placeholder/CommonComponents_NETStandard.dll": {}
         }
       },
       "Elastic_NETCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
-          "CommonComponents_NETCore": "1.0.0",
+          "CommonComponents_NETStandard": "1.0.0",
           "ElasticSearch": "1.4.2",
           "NEST": "6.4.0",
           "NEST.JsonNetSerializer": "6.4.0",
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "12.0.1"
         },
         "compile": {
           "bin/placeholder/Elastic_NETCore.dll": {}
@@ -284,11 +284,23 @@
           "bin/placeholder/Elastic_NETCore.dll": {}
         }
       },
+      "OutlookCrawler_NETFramework/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "CommonComponents_NETStandard": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OutlookCrawler_NETFramework.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OutlookCrawler_NETFramework.dll": {}
+        }
+      },
       "TikeRest_NETCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
-          "CommonComponents_NETCore": "1.0.0"
+          "CommonComponents_NETStandard": "1.0.0"
         },
         "compile": {
           "bin/placeholder/TikeRest_NETCore.dll": {}
@@ -864,45 +876,59 @@
         "netstandard.library.nuspec"
       ]
     },
-    "Newtonsoft.Json/11.0.2": {
-      "sha512": "znZGbws7E4BA9jxNZ7FuiIRI3C9hrgatVQSTKhIYZYNOud4M5VfGlTYi6RdYO5sQrebFuF/g9UEV3hOxDMXF6Q==",
+    "Newtonsoft.Json/12.0.1": {
+      "sha512": "pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
       "type": "package",
-      "path": "newtonsoft.json/11.0.2",
+      "path": "newtonsoft.json/12.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.pdb",
         "lib/net20/Newtonsoft.Json.xml",
         "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.pdb",
         "lib/net35/Newtonsoft.Json.xml",
         "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.pdb",
         "lib/net40/Newtonsoft.Json.xml",
         "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.pdb",
         "lib/net45/Newtonsoft.Json.xml",
         "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.pdb",
         "lib/netstandard1.0/Newtonsoft.Json.xml",
         "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.pdb",
         "lib/netstandard1.3/Newtonsoft.Json.xml",
         "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.pdb",
         "lib/netstandard2.0/Newtonsoft.Json.xml",
         "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.pdb",
         "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.pdb",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "newtonsoft.json.11.0.2.nupkg.sha512",
+        "newtonsoft.json.12.0.1.nupkg.sha512",
         "newtonsoft.json.nuspec"
       ]
     },
-    "CommonComponents_NETCore/1.0.0": {
+    "CommonComponents_NETStandard/1.0.0": {
       "type": "project",
-      "path": "../CommonComponents_NETCore/CommonComponents_NETCore.csproj",
-      "msbuildProject": "../CommonComponents_NETCore/CommonComponents_NETCore.csproj"
+      "path": "../CommonComponents_NETStandard/CommonComponents_NETStandard.csproj",
+      "msbuildProject": "../CommonComponents_NETStandard/CommonComponents_NETStandard.csproj"
     },
     "Elastic_NETCore/1.0.0": {
       "type": "project",
       "path": "../Elastic_NETCore/Elastic_NETCore.csproj",
       "msbuildProject": "../Elastic_NETCore/Elastic_NETCore.csproj"
+    },
+    "OutlookCrawler_NETFramework/1.0.0": {
+      "type": "project",
+      "path": "../OutlookCrawler_NetFramework/OutlookCrawler_NETFramework.csproj",
+      "msbuildProject": "../OutlookCrawler_NetFramework/OutlookCrawler_NETFramework.csproj"
     },
     "TikeRest_NETCore/1.0.0": {
       "type": "project",
@@ -912,9 +938,10 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "CommonComponents_NETCore >= 1.0.0",
+      "CommonComponents_NETStandard >= 1.0.0",
       "Elastic_NETCore >= 1.0.0",
       "Microsoft.NETCore.App >= 2.1.0",
+      "OutlookCrawler_NETFramework >= 1.0.0",
       "TikeRest_NETCore >= 1.0.0"
     ]
   },
@@ -948,11 +975,14 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\ckmaster\\source\\repos\\BearSearch\\CommonComponents_NETCore\\CommonComponents_NETCore.csproj": {
-              "projectPath": "C:\\Users\\ckmaster\\source\\repos\\BearSearch\\CommonComponents_NETCore\\CommonComponents_NETCore.csproj"
+            "C:\\Users\\ckmaster\\source\\repos\\BearSearch\\CommonComponents_NETStandard\\CommonComponents_NETStandard.csproj": {
+              "projectPath": "C:\\Users\\ckmaster\\source\\repos\\BearSearch\\CommonComponents_NETStandard\\CommonComponents_NETStandard.csproj"
             },
             "C:\\Users\\ckmaster\\source\\repos\\BearSearch\\Elastic_NETCore\\Elastic_NETCore.csproj": {
               "projectPath": "C:\\Users\\ckmaster\\source\\repos\\BearSearch\\Elastic_NETCore\\Elastic_NETCore.csproj"
+            },
+            "C:\\Users\\ckmaster\\source\\repos\\BearSearch\\OutlookCrawler_NetFramework\\OutlookCrawler_NETFramework.csproj": {
+              "projectPath": "C:\\Users\\ckmaster\\source\\repos\\BearSearch\\OutlookCrawler_NetFramework\\OutlookCrawler_NETFramework.csproj"
             },
             "C:\\Users\\ckmaster\\source\\repos\\BearSearch\\TikeRest_NETCore\\TikeRest_NETCore.csproj": {
               "projectPath": "C:\\Users\\ckmaster\\source\\repos\\BearSearch\\TikeRest_NETCore\\TikeRest_NETCore.csproj"
