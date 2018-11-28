@@ -534,3 +534,62 @@
 [2018-11-15T15:04:15,348][INFO ][o.e.c.r.a.DiskThresholdMonitor] [LRn4L7A] low disk watermark [85%] exceeded on [LRn4L7A1SEqRsi5_WJMVhg][LRn4L7A][C:\Users\ckmaster\source\repos\BearSearch\ThirdPartyComponents\elasticsearch-6.5.0\data\nodes\0] free: 29.1gb[12.5%], replicas will not be assigned to this node
 [2018-11-15T15:04:45,351][INFO ][o.e.c.r.a.DiskThresholdMonitor] [LRn4L7A] low disk watermark [85%] exceeded on [LRn4L7A1SEqRsi5_WJMVhg][LRn4L7A][C:\Users\ckmaster\source\repos\BearSearch\ThirdPartyComponents\elasticsearch-6.5.0\data\nodes\0] free: 29.1gb[12.5%], replicas will not be assigned to this node
 [2018-11-15T15:05:15,354][INFO ][o.e.c.r.a.DiskThresholdMonitor] [LRn4L7A] low disk watermark [85%] exceeded on [LRn4L7A1SEqRsi5_WJMVhg][LRn4L7A][C:\Users\ckmaster\source\repos\BearSearch\ThirdPartyComponents\elasticsearch-6.5.0\data\nodes\0] free: 29.1gb[12.5%], replicas will not be assigned to this node
+[2018-11-27T18:45:22,042][INFO ][o.e.e.NodeEnvironment    ] [LRn4L7A] using [1] data paths, mounts [[(C:)]], net usable_space [831.3gb], net total_space [953.2gb], types [NTFS]
+[2018-11-27T18:45:22,044][INFO ][o.e.e.NodeEnvironment    ] [LRn4L7A] heap size [989.8mb], compressed ordinary object pointers [true]
+[2018-11-27T18:45:22,076][INFO ][o.e.n.Node               ] [LRn4L7A] node name derived from node ID [LRn4L7A1SEqRsi5_WJMVhg]; set [node.name] to override
+[2018-11-27T18:45:22,077][INFO ][o.e.n.Node               ] [LRn4L7A] version[6.5.0], pid[9796], build[default/zip/816e6f6/2018-11-09T18:58:36.352602Z], OS[Windows 10/10.0/amd64], JVM[AdoptOpenJDK/OpenJDK 64-Bit Server VM/11.0.1/11.0.1+13]
+[2018-11-27T18:45:22,077][INFO ][o.e.n.Node               ] [LRn4L7A] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=C:\Users\ckmaster\AppData\Local\Temp\elasticsearch, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -Xlog:gc*,gc+age=trace,safepoint:file=logs/gc.log:utctime,pid,tags:filecount=32,filesize=64m, -Djava.locale.providers=COMPAT, -XX:UseAVX=2, -Delasticsearch, -Des.path.home=C:\Users\ckmaster\source\repos\BearSearch\ThirdPartyComponents\elasticsearch-6.5.0, -Des.path.conf=C:\Users\ckmaster\source\repos\BearSearch\ThirdPartyComponents\elasticsearch-6.5.0\config, -Des.distribution.flavor=default, -Des.distribution.type=zip]
+[2018-11-27T18:45:23,683][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [aggs-matrix-stats]
+[2018-11-27T18:45:23,683][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [analysis-common]
+[2018-11-27T18:45:23,684][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [ingest-common]
+[2018-11-27T18:45:23,684][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [lang-expression]
+[2018-11-27T18:45:23,684][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [lang-mustache]
+[2018-11-27T18:45:23,684][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [lang-painless]
+[2018-11-27T18:45:23,684][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [mapper-extras]
+[2018-11-27T18:45:23,684][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [parent-join]
+[2018-11-27T18:45:23,684][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [percolator]
+[2018-11-27T18:45:23,684][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [rank-eval]
+[2018-11-27T18:45:23,685][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [reindex]
+[2018-11-27T18:45:23,686][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [repository-url]
+[2018-11-27T18:45:23,687][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [transport-netty4]
+[2018-11-27T18:45:23,687][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [tribe]
+[2018-11-27T18:45:23,687][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [x-pack-ccr]
+[2018-11-27T18:45:23,688][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [x-pack-core]
+[2018-11-27T18:45:23,689][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [x-pack-deprecation]
+[2018-11-27T18:45:23,689][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [x-pack-graph]
+[2018-11-27T18:45:23,689][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [x-pack-logstash]
+[2018-11-27T18:45:23,689][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [x-pack-ml]
+[2018-11-27T18:45:23,690][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [x-pack-monitoring]
+[2018-11-27T18:45:23,690][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [x-pack-rollup]
+[2018-11-27T18:45:23,690][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [x-pack-security]
+[2018-11-27T18:45:23,691][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [x-pack-sql]
+[2018-11-27T18:45:23,691][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [x-pack-upgrade]
+[2018-11-27T18:45:23,691][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [x-pack-watcher]
+[2018-11-27T18:45:23,692][INFO ][o.e.p.PluginsService     ] [LRn4L7A] no plugins loaded
+[2018-11-27T18:45:26,246][INFO ][o.e.x.s.a.s.FileRolesStore] [LRn4L7A] parsed [0] roles from file [C:\Users\ckmaster\source\repos\BearSearch\ThirdPartyComponents\elasticsearch-6.5.0\config\roles.yml]
+[2018-11-27T18:45:26,595][INFO ][o.e.x.m.j.p.l.CppLogMessageHandler] [LRn4L7A] [controller/3820] [Main.cc@109] controller (64 bit): Version 6.5.0 (Build 71882a589e5556) Copyright (c) 2018 Elasticsearch BV
+[2018-11-27T18:45:26,891][DEBUG][o.e.a.ActionModule       ] [LRn4L7A] Using REST wrapper from plugin org.elasticsearch.xpack.security.Security
+[2018-11-27T18:45:27,070][INFO ][o.e.d.DiscoveryModule    ] [LRn4L7A] using discovery type [zen] and host providers [settings]
+[2018-11-27T18:45:27,574][INFO ][o.e.n.Node               ] [LRn4L7A] initialized
+[2018-11-27T18:45:27,574][INFO ][o.e.n.Node               ] [LRn4L7A] starting ...
+[2018-11-27T18:45:28,017][INFO ][o.e.t.TransportService   ] [LRn4L7A] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2018-11-27T18:45:31,072][INFO ][o.e.c.s.MasterService    ] [LRn4L7A] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {LRn4L7A}{LRn4L7A1SEqRsi5_WJMVhg}{SzHGRSQ3SIqsQatmfXMGhw}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=34286448640, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}
+[2018-11-27T18:45:31,075][INFO ][o.e.c.s.ClusterApplierService] [LRn4L7A] new_master {LRn4L7A}{LRn4L7A1SEqRsi5_WJMVhg}{SzHGRSQ3SIqsQatmfXMGhw}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=34286448640, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}, reason: apply cluster state (from master [master {LRn4L7A}{LRn4L7A1SEqRsi5_WJMVhg}{SzHGRSQ3SIqsQatmfXMGhw}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=34286448640, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2018-11-27T18:45:31,306][INFO ][o.e.x.s.t.n.SecurityNetty4HttpServerTransport] [LRn4L7A] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2018-11-27T18:45:31,306][INFO ][o.e.n.Node               ] [LRn4L7A] started
+[2018-11-27T18:45:31,353][WARN ][o.e.x.s.a.s.m.NativeRoleMappingStore] [LRn4L7A] Failed to clear cache for realms [[]]
+[2018-11-27T18:45:31,376][INFO ][o.e.l.LicenseService     ] [LRn4L7A] license [51b1a765-67cd-4a30-a385-a6f03e704781] mode [basic] - valid
+[2018-11-27T18:45:31,396][INFO ][o.e.g.GatewayService     ] [LRn4L7A] recovered [2] indices into cluster_state
+[2018-11-27T18:45:31,719][INFO ][o.e.c.r.a.AllocationService] [LRn4L7A] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[gutenberg][0], [gutenberg][2]] ...]).
+[2018-11-27T18:47:22,444][INFO ][o.e.c.m.MetaDataIndexTemplateService] [LRn4L7A] adding template [.management-beats] for index patterns [.management-beats]
+[2018-11-27T18:47:24,410][INFO ][o.e.c.m.MetaDataCreateIndexService] [LRn4L7A] [.kibana_2] creating index, cause [api], templates [], shards [1]/[1], mappings [doc]
+[2018-11-27T18:47:24,412][INFO ][o.e.c.r.a.AllocationService] [LRn4L7A] updating number_of_replicas to [0] for indices [.kibana_2]
+[2018-11-27T18:47:24,477][INFO ][o.e.c.m.MetaDataCreateIndexService] [LRn4L7A] [.kibana_1] creating index, cause [api], templates [], shards [1]/[1], mappings [doc]
+[2018-11-27T18:47:24,478][INFO ][o.e.c.r.a.AllocationService] [LRn4L7A] updating number_of_replicas to [0] for indices [.kibana_1]
+[2018-11-27T18:47:24,702][INFO ][o.e.c.m.MetaDataCreateIndexService] [LRn4L7A] [.tasks] creating index, cause [auto(task api)], templates [], shards [1]/[1], mappings [task]
+[2018-11-27T18:47:24,703][INFO ][o.e.c.r.a.AllocationService] [LRn4L7A] updating number_of_replicas to [0] for indices [.tasks]
+[2018-11-27T18:47:24,771][INFO ][o.e.t.LoggingTaskListener] [LRn4L7A] 74 finished with response BulkByScrollResponse[took=149ms,timed_out=false,sliceId=null,updated=0,created=1,deleted=0,batches=1,versionConflicts=0,noops=0,retries=0,throttledUntil=0s,bulk_failures=[],search_failures=[]]
+[2018-11-27T18:47:24,860][INFO ][o.e.c.m.MetaDataDeleteIndexService] [LRn4L7A] [.kibana/58g1QIJATlWqoUeZWI1Zww] deleting index
+[2018-11-27T18:47:24,966][INFO ][o.e.c.m.MetaDataIndexTemplateService] [LRn4L7A] adding template [kibana_index_template:.kibana] for index patterns [.kibana]
+[2018-11-27T18:47:24,975][INFO ][o.e.c.m.MetaDataIndexTemplateService] [LRn4L7A] adding template [kibana_index_template:.kibana] for index patterns [.kibana]
+[2018-11-27T18:54:03,860][INFO ][o.e.c.m.MetaDataIndexTemplateService] [LRn4L7A] adding template [kibana_index_template:.kibana] for index patterns [.kibana]

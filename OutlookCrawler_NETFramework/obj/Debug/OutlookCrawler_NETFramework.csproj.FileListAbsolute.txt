@@ -1,0 +1,8 @@
+C:\Users\ckmaster\source\repos\BearSearch\OutlookCrawler_NetFramework\bin\Debug\OutlookCrawler_NetFramework.exe.config
+C:\Users\ckmaster\source\repos\BearSearch\OutlookCrawler_NetFramework\bin\Debug\OutlookCrawler_NetFramework.exe
+C:\Users\ckmaster\source\repos\BearSearch\OutlookCrawler_NetFramework\bin\Debug\OutlookCrawler_NetFramework.pdb
+C:\Users\ckmaster\source\repos\BearSearch\OutlookCrawler_NetFramework\obj\Debug\OutlookCrawler_NETFramework.csprojAssemblyReference.cache
+C:\Users\ckmaster\source\repos\BearSearch\OutlookCrawler_NetFramework\obj\Debug\OutlookCrawler_NETFramework.csproj.ResolveComReference.cache
+C:\Users\ckmaster\source\repos\BearSearch\OutlookCrawler_NetFramework\obj\Debug\OutlookCrawler_NETFramework.csproj.CoreCompileInputs.cache
+C:\Users\ckmaster\source\repos\BearSearch\OutlookCrawler_NetFramework\obj\Debug\OutlookCrawler_NetFramework.exe
+C:\Users\ckmaster\source\repos\BearSearch\OutlookCrawler_NetFramework\obj\Debug\OutlookCrawler_NetFramework.pdb

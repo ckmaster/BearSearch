@@ -14,3 +14,6 @@
 [2018-11-15T12:56:48,866][WARN ][o.e.d.a.a.i.t.p.PutIndexTemplateRequest] [LRn4L7A] Deprecated field [template] used, replaced by [index_patterns]
 [2018-11-15T12:56:49,131][WARN ][o.e.d.a.a.i.t.p.PutIndexTemplateRequest] [LRn4L7A] Deprecated field [template] used, replaced by [index_patterns]
 [2018-11-15T12:56:50,061][WARN ][o.e.d.a.a.i.t.p.PutIndexTemplateRequest] [LRn4L7A] Deprecated field [template] used, replaced by [index_patterns]
+[2018-11-27T18:47:24,961][WARN ][o.e.d.a.a.i.t.p.PutIndexTemplateRequest] [LRn4L7A] Deprecated field [template] used, replaced by [index_patterns]
+[2018-11-27T18:47:24,961][WARN ][o.e.d.a.a.i.t.p.PutIndexTemplateRequest] [LRn4L7A] Deprecated field [template] used, replaced by [index_patterns]
+[2018-11-27T18:54:03,855][WARN ][o.e.d.a.a.i.t.p.PutIndexTemplateRequest] [LRn4L7A] Deprecated field [template] used, replaced by [index_patterns]

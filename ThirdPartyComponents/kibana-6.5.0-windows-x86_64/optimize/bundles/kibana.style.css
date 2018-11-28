@@ -402,10 +402,10 @@ body > .ui-select-bootstrap.open {
           flex-grow: 0;
 }
 .homWelcome::before {
-  content: url(__REPLACE_WITH_PUBLIC_PATH__176bcca991b07a6ec908fc4d36ac5ae0.svg);
+  content: url(__REPLACE_WITH_PUBLIC_PATH__5537d4d674b1d1bda2b424a7e1700f14.svg);
 }
 .homWelcome::after {
-  content: url(__REPLACE_WITH_PUBLIC_PATH__cc17a3dbad9fc4557b4d5d47a38fcc56.svg);
+  content: url(__REPLACE_WITH_PUBLIC_PATH__14d75f3ac3349721e15d90d1890a0205.svg);
 }
 .collapsible-sidebar {
   position: relative;
