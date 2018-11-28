@@ -284,6 +284,20 @@
           "bin/placeholder/Elastic_NETCore.dll": {}
         }
       },
+      "FileCrawler_NETCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "CommonComponents_NETStandard": "1.0.0",
+          "Microsoft.NETCore.App": "2.1.0"
+        },
+        "compile": {
+          "bin/placeholder/FileCrawler_NETCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FileCrawler_NETCore.dll": {}
+        }
+      },
       "OutlookCrawler_NETFramework/1.0.0": {
         "type": "project",
         "dependencies": {
@@ -925,6 +939,11 @@
       "path": "../Elastic_NETCore/Elastic_NETCore.csproj",
       "msbuildProject": "../Elastic_NETCore/Elastic_NETCore.csproj"
     },
+    "FileCrawler_NETCore/1.0.0": {
+      "type": "project",
+      "path": "../FileCrawler_NETCore/FileCrawler_NETCore.csproj",
+      "msbuildProject": "../FileCrawler_NETCore/FileCrawler_NETCore.csproj"
+    },
     "OutlookCrawler_NETFramework/1.0.0": {
       "type": "project",
       "path": "../OutlookCrawler_NetFramework/OutlookCrawler_NETFramework.csproj",
@@ -940,6 +959,7 @@
     ".NETCoreApp,Version=v2.1": [
       "CommonComponents_NETStandard >= 1.0.0",
       "Elastic_NETCore >= 1.0.0",
+      "FileCrawler_NETCore >= 1.0.0",
       "Microsoft.NETCore.App >= 2.1.0",
       "OutlookCrawler_NETFramework >= 1.0.0",
       "TikeRest_NETCore >= 1.0.0"
@@ -980,6 +1000,9 @@
             },
             "C:\\Users\\ckmaster\\source\\repos\\BearSearch\\Elastic_NETCore\\Elastic_NETCore.csproj": {
               "projectPath": "C:\\Users\\ckmaster\\source\\repos\\BearSearch\\Elastic_NETCore\\Elastic_NETCore.csproj"
+            },
+            "C:\\Users\\ckmaster\\source\\repos\\BearSearch\\FileCrawler_NETCore\\FileCrawler_NETCore.csproj": {
+              "projectPath": "C:\\Users\\ckmaster\\source\\repos\\BearSearch\\FileCrawler_NETCore\\FileCrawler_NETCore.csproj"
             },
             "C:\\Users\\ckmaster\\source\\repos\\BearSearch\\OutlookCrawler_NetFramework\\OutlookCrawler_NETFramework.csproj": {
               "projectPath": "C:\\Users\\ckmaster\\source\\repos\\BearSearch\\OutlookCrawler_NetFramework\\OutlookCrawler_NETFramework.csproj"

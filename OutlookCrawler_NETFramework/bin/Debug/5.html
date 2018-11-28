@@ -1,0 +1,1756 @@
+<!doctype html public "- / /w3c / /dtd xhtml 1.0 strict / /en" "http: / /www.w3.org /tr /xhtml1 /dtd /xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>	<!--[if IEMobile]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<![endif]-->
+		
+		<meta name="HandheldFriendly" content="true">
+		<meta name="MobileOptimized" content="320">
+		<meta name="viewport" content="width=device-width">
+
+				    <title>YouTube</title>
+
+				    <style type="text/css">
+	a {
+        text-decoration: none
+    }
+
+	/* Client-specific Styles */
+	body.email-body {
+        width:100% !important;
+        -webkit-text-size-adjust: 100%;
+        margin: 0;
+        padding: 0;
+        background:#FFFFFF;
+    }
+
+    /* Force Outlook to provide a "view in browser" menu link. */
+	#outlook a {
+        padding: 0;
+        text-decoration: none !important;
+    }
+
+	#backgroundTable {
+        margin:0;
+        padding:0;
+        width:100% !important;
+    }
+
+    /* Force Hotmail to display emails at full width*/
+	.ExternalClass {
+        width:100%;
+    }
+	.ExternalClass * {
+        line-height: 100%;
+    }
+    /*Force Hotmail to display normal line spacing.  More on that: http://www.emailonacid.com/forum/viewthread/43/ */
+	.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+        line-height: 100%;
+    }
+
+	/*css generic*/
+	a,a:hover,a:link,a:visited {
+        text-decoration:none !important;
+        outline: none;
+    }
+
+	hr {
+        display: none !important;
+    }
+
+	@media  screen and (max-width: 480px) {
+
+        img {
+            max-width: 320px !important;
+        }
+
+		table.wrapper-table {
+            width: 100% !important;
+        }
+        th.element-block-center,
+		td.element-block-center {
+            display: block !important;
+            width: 100% !important;
+            text-align: center !important;
+            padding: 0 !important;
+        }
+		td.text-align-center {
+            text-align: center !important;
+        }
+		td.mobile-margin {
+            padding: 0 10px !important;
+        }
+		tr.show-device {
+            display: block !important;
+        }
+		*.hidden-device {
+            display: none !important;
+        }
+		div.show-img-device {
+			display: table !important;
+			width: 100% !important;
+			float: none;
+			overflow: visible !important;
+			height: auto !important;
+		}
+		.display-mobile {
+            display: block !important;
+            width: 100% !important;
+            overflow: visible !important;
+            max-height: 100% !important;
+        }
+        .image-mobile{
+            display:block!important;
+            width: 100%!important;
+            max-width: 100%!important;
+        }
+        .full-width {
+            width: 100% !important;
+        }
+	}
+</style>
+
+<!--[if mso]>
+	<style>
+		table[module-table-wrapper] {
+            width: 560px !important;
+        }
+		td, span, p, a, h5, h6, div {
+            font-family: Arial, Helvetica, sans-serif !important;
+        }
+	</style>
+<![endif]-->
+
+<!--[if gte mso 9]>
+	<style>
+		.mso-side-padding-20{ padding-left:20px;padding-right:20px; }
+	</style>
+<![endif]-->
+
+<!--[if IEMobile]>
+	<style type="text/css">
+		td, span, p, a, h5, h6, div{font-family: Arial, Helvetica, sans-serif !important;}
+	</style>
+<![endif]-->    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,500,700" rel="stylesheet" type="text/css">    <style type="text/css">
+    .email-body{ width:100% !important; -webkit-text-size-adjust: 100%; margin: 0 !important; padding: 0px; background-color: #ffffff; }
+    a{color: #ff0000;text-decoration:none!important}
+    a.link{color: rgb(0, 102, 187) !important;}
+    a.cta-red, a.cta-red span{color: #ffffff;}
+    a.cta-gray, a.cta-gray span{color: #808080;}
+    #outlook a{padding:0;text-decoration:none!important}
+    #backgroundTable{margin:0;padding:0;width:100%!important}
+    .ExternalClass{width:100%}
+    .ExternalClass *{line-height:100%}
+    .ExternalClass,.ExternalClass p,.ExternalClass span,.ExternalClass font,.ExternalClass td,.ExternalClass div{line-height:100%}
+    span.preheader{ display: none!important;}
+    .cta-table-cell {display: table-cell;}
+    ul{margin:0;}
+    .hide-img-device{font-size: 0;width:0;overflow:hidden;max-height:0!important;display:none;}
+    .gmail-link a{color:inherit !important;}
+    .desktop-padding{
+        padding-top: 10px;
+    }
+
+
+    /* custom fonts for youtube*/
+    @font-face{
+        font-family: 'YouTube sans';
+        font-weight: 400;
+        font-style: normal;
+        src:  url('https://youtube.stensul.com/fonts/YTSans-Medium.otf') format('opentype'),
+              url('https://www.emailimagecdnmr47.com/vxo07bqjt3/en_us/fonts/YTSans-Medium.woff') format('woff'),
+              url('https://www.emailimagecdnmr47.com/vxo07bqjt3/en_us/fonts/YTSans-Medium.woff2') format('woff2'),
+              url('https://www.emailimagecdnmr47.com/vxo07bqjt3/en_us/fonts/YTSans-Medium.ttf') format('truetype');
+    }
+    @font-face{
+        font-family: 'YouTube sans';
+        font-weight: 700;
+        font-style: normal;
+        src:  url('https://youtube.stensul.com/fonts/YTSans-Bold.otf') format('opentype'),
+              url('https://www.emailimagecdnmr47.com/vxo07bqjt3/en_us/fonts/YTSans-Bold.woff') format('woff'),
+              url('https://www.emailimagecdnmr47.com/vxo07bqjt3/en_us/fonts/YTSans-Bold.woff2') format('woff2');
+    }
+
+    @font-face{
+        font-family: 'YouTube sans';
+        font-weight: 300;
+        font-style: normal;
+        src:  url('https://youtube.stensul.com/fonts/YTSans-Light.otf') format('opentype'),
+              url('https://www.emailimagecdnmr47.com/vxo07bqjt3/en_us/fonts/YTSans-Light.woff') format('woff'),
+              url('https://www.emailimagecdnmr47.com/vxo07bqjt3/en_us/fonts/YTSans-Light.woff2') format('woff2'),
+              url('https://www.emailimagecdnmr47.com/vxo07bqjt3/en_us/fonts/YTSans-Light.ttf') format('truetype');
+    }
+
+
+    @media    screen and (max-width: 480px) {
+        .header-text-mobile{font-size: 12px !important}
+        .gmail-width-fix{min-width: 100%;}
+        .mobile-margin {padding: 0 10px !important;}
+        .wrapper-table {width: 100% !important;}
+        .wrapper {width: 100% !important;}
+        .col{ display: block!important; width: 100%!important; padding: 0px !important;}
+        .col2{ display: block!important; width: 100%!important;}
+        .resize{ width: 100%!important; display: block!important; height: auto !important;}
+        .text{font-size: 20px !important;}
+        .wrapper-img-left, .wrapper-img-right {padding: 0px 0px !important;}
+        .padding-img-mobile {padding-right: 0px!important; padding-bottom: 20px !important; width: 540px;}
+        .padding-img-mobile2 {padding-left: 0px!important; padding-bottom: 20px !important; width: 540px;}
+        .col-padding-mob1 {padding: 0px !important;}
+        .cta-padding-mob2 {padding-left: 20px !important;}
+        .cta-padding-mob{padding-right: 20px!important;}
+        .stay-padding-mob{padding-right: 0px!important; padding-bottom: 16px!important;}
+        .tvheader-mobile {width: 125px!important; height: auto!important;}
+        .stay-padding-mob {padding-right: 0px!important; padding-bottom: 16px!important;}
+        .img-center{text-align: center!important;}
+        .app-table{ width: 270px!important;}
+        *.hidden-device { display: none !important; }
+        .full-width { width: 100% !important;min-width: 0 !important;max-width: none!important; }
+        .logo-header-mobile{height: 25px !important}
+        .logo-header-mobile-30{height: 30px !important}
+        .margin-auto{margin: 0 auto !important}
+        .font-size-mobile{font-size: 16px !important}
+        .show-img-device {
+            display: table !important;
+            width: 100% !important;
+            float: none;
+            overflow: visible !important;
+            height: auto !important;
+        }
+        .logo-width-mobile{
+            width: 30%!important;
+        }
+        .logo-mobile-30{
+            height: 20px!important;
+        }
+        .logo-mobile-40{
+            height: 30px!important;
+        }
+        .header-mobile-text{
+            width: 70%!important;
+        }
+        .cta-table-cell {
+            display: block;
+            min-width: 100% !important;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+        .without-padding{
+            padding-top: 10px !important;
+            display: inline-block;
+        }
+        .desktop-padding{
+            padding-top: 0px;
+        }
+        .image-max-width-100{
+            max-width: 100%;
+        }
+        .max-width-128-mobile{
+            max-width: 128px;
+            height: auto!important;
+        }
+    }
+</style>
+<!--[if mso]>
+    <style>
+        td, span, p, a, h5, h6, div {
+            font-family: sans-serif !important;
+        }
+    </style>
+<![endif]-->
+
+				
+
+	</head>
+	<body class="email-body">
+
+				
+		
+                        <div style="font-size:0px; display:none; visibility:hidden; opacity:0; color:transparent; max-height:0px; height:0; width:0; mso-hide:all;">What we&#39;re watching and what&#39;s new, in your inbox every week.</div>
+    
+
+							<table cellpadding="0" cellspacing="0" width="100%">
+				<tr>
+					<td align="center" bgcolor="#FFFFFF" style="vertical-align:top;">
+						<table cellpadding="0" cellspacing="0" border="0" class="wrapper-table" width="600">
+							
+					<thead>
+                        					</thead>
+                    <tbody class="ui-sortable">
+                        <tr>
+<!-- TV HEADER -->
+    <td width="100%" align="left" class="mobile-margin">
+        <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+            <tbody><tr>
+                <td width="100%" style="vertical-align: middle; height: 90px">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tbody><tr>
+                            <td width="100%">
+                                <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                    <tbody><tr>
+                                        <td width="100%" align="center" style="padding: 0 30px">
+                                            <a class="action-config" href="https://tv.youtube.com" target="_blank">
+                                                <img src="https://www.emailimagecdnmr47.com/vxo07bqjt3/en_us/images/yt_header_default.png" width="230" height="45" border="0" style="display:block;" alt="">
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody></table>
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            </tr>
+        </tbody></table>
+    </td>
+<!-- TV HEADER -->
+</tr>
+                            								                			        
+                    <tr>
+<!-- BODY TEXT -->
+    <td width="100%" align="left" class="mobile-margin">
+        <table bgcolor="#FFFFFF" style="background-color: #FFFFFF;" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+            <tbody><tr>
+                <td width="100%" style="vertical-align: top; padding: 0px 30px;">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tbody><tr>
+                            <td width="100%">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+                                    <tbody><tr>
+                                        <td width="100%" align="left" style="font-family: Roboto, sans-serif; color:#808080; font-weight:300; font-size: 16px; line-height:20px; vertical-align: middle;  text-decoration: none;">
+                                            <div>
+                                                <div>
+                                                    <div style="position: relative;"><div style="margin: 0px; text-align: center;">What we&#39;re watching and what&#39;s new, in your inbox every week.</div></div>
+                                                </div>
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>   
+                                </tbody></table>
+                            </td>
+                        </tr>
+                    </tbody></table>                
+                </td>
+            </tr>
+        </tbody></table>  
+    </td>
+<!-- BODY TEXT -->
+</tr>
+                            								                			        
+                    <tr>
+    <td width="100%" align="left" class="mobile-margin">
+        <table width="100%" cellspacing="0" cellpadding="0" border="0" style="width:100%;width:100% !important;">
+            <tbody><tr>
+                <td width="100%" height="10" align="center">
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="#cccccc" height="1" style="max-width:540px; margin:0 auto; background-color: #cccccc;;font-size:1px;line-height:1px;mso-line-height-rule:exactly;height:1px;max-height:1px;display:block;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+                     
+                </td>
+            </tr>
+            <tr>
+                <td width="100%" height="10" align="center">
+                </td>
+            </tr>
+        </tbody></table>
+    </td>
+</tr>                            								                			        
+                    <tr>
+    <td align="center" style="vertical-align:middle;" class="mobile-margin">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%!important;background-color: #FFFFFF;" bgcolor="#FFFFFF">
+            <tbody>
+                <tr>
+                    <td width="100%" height="10" style="font-size: 1px;"> </td>
+                </tr>
+            </tbody>
+        </table>
+    </td>
+</tr>                            								                			        
+                    <tr>
+<!-- TITLE -->
+    <td width="100%" align="left" class="mobile-margin">
+        <table bgcolor="#FFFFFF" style="background-color: #FFFFFF;" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+            <tbody><tr>
+                <td width="100%" style="vertical-align: top; padding: 0px 30px;">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tbody><tr>
+                            <td width="100%">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+                                    <tbody><tr>
+                                        <td width="100%" align="left" style="font-family: Roboto, sans-serif; color:#282828; font-weight:300; font-size: 22px; line-height:26px; vertical-align: middle; text-decoration: none;">
+                                            <div>
+                                                <div>
+                                                    <div style="position: relative;"><div style="text-align: center;">We&#39;re a little bit country</div></div>
+                                                </div>
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>   
+                                </tbody></table>
+                            </td>
+                        </tr>
+                        
+                    </tbody></table>                
+                </td>
+            </tr>
+        </tbody></table>
+    </td>
+<!-- TITLE -->
+</tr>
+                            								                			        
+                    <tr>
+    <td align="center" style="vertical-align:middle;" class="mobile-margin">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%!important;background-color: #FFFFFF;" bgcolor="#FFFFFF">
+            <tbody>
+                <tr>
+                    <td width="100%" height="10" style="font-size: 1px;"> </td>
+                </tr>
+            </tbody>
+        </table>
+    </td>
+</tr>                            								                			        
+                    <tr>
+    <!-- FULL WIDTH IMAGE -->
+    <td width="100%" align="left" class="mobile-margin" height="auto">
+        <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+            <tbody><tr>
+                <td width="100%" style="vertical-align: top;" height="auto">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tbody><tr>
+                            <td width="100%" height="auto">
+                                <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                    <tbody><tr>
+                                        <td width="100%" align="left" height="auto">
+                                                                                <div style="width: 100%;">
+                                                <a href="https://tv.youtube.com/browse/UCyZseoj4QYF-Zmmkb6KTrYQ">
+                                                    <table width="100%" height="auto" cellspacing="0" cellpadding="0" border="0">
+                                                        <tbody><tr>
+                                                            <td width="100%" style="width: 100%;" height="auto">
+                                                                <img src="https://www.emailimagecdnmr47.com/vxo07bqjt3/en_us/images/5be47edf71e79-1541701343.4666.jpg" title="hero-image" width="600" border="0" class="resize hidden-device" style="display:block; max-width: 100%; height:auto;" alt="hero-image">
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="show-img-device hide-img-device" style="display: none;">
+                                                            <td width="100" height="auto">
+                                                                <img src="https://www.emailimagecdnmr47.com/vxo07bqjt3/en_us/images/5be47edf71e79-1541701343.4666.jpg" title="" width="100" border="0" style="display: block; border: none; min-width: 100%; max-width: 100%; height: auto;" alt="">
+                                                            </td>
+                                                        </tr>
+                                                    </tbody></table>
+                                                </a>
+                                            </div>
+                                                                            </td>
+                                    </tr>
+                                </tbody></table>
+                            </td>
+                        </tr>
+                    </tbody></table>                
+                </td>
+            </tr>
+        </tbody></table>
+    </td>
+<!-- SECTION IMAGE -->
+</tr>  
+                            
+                            								                			        
+                    <tr>
+    <td align="center" style="vertical-align:middle;" class="mobile-margin">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%!important;background-color: #FFFFFF;" bgcolor="#FFFFFF">
+            <tbody>
+                <tr>
+                    <td width="100%" height="10" style="font-size: 1px;"> </td>
+                </tr>
+            </tbody>
+        </table>
+    </td>
+</tr>                            								                			        
+                    <tr>
+    <td align="center" style="vertical-align:middle;" class="mobile-margin">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%!important;background-color: #FFFFFF;" bgcolor="#FFFFFF">
+            <tbody>
+                <tr>
+                    <td width="100%" height="10" style="font-size: 1px;"> </td>
+                </tr>
+            </tbody>
+        </table>
+    </td>
+</tr>                            								                			        
+                    <tr>
+<!-- BODY TEXT -->
+    <td width="100%" align="left" class="mobile-margin">
+        <table bgcolor="#FFFFFF" style="background-color: #FFFFFF;" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+            <tbody><tr>
+                <td width="100%" style="vertical-align: top; padding: 0px 30px;">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tbody><tr>
+                            <td width="100%">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+                                    <tbody><tr>
+                                        <td width="100%" align="left" style="font-family: Roboto, sans-serif; color:#808080; font-weight:300; font-size: 16px; line-height:20px; vertical-align: middle;  text-decoration: none;">
+                                            <div>
+                                                <div>
+                                                    <div style="position: relative;"><div style="text-align: center;">The 52nd Annual Country Music Awards<br></div><div style="text-align: center;">Wed | ABC | 8/7c</div></div>
+                                                </div>
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>   
+                                </tbody></table>
+                            </td>
+                        </tr>
+                    </tbody></table>                
+                </td>
+            </tr>
+        </tbody></table>  
+    </td>
+<!-- BODY TEXT -->
+</tr>
+                            								                			        
+                    <tr>
+    <td align="center" style="vertical-align:middle;" class="mobile-margin">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%!important;background-color: #FFFFFF;" bgcolor="#FFFFFF">
+            <tbody>
+                <tr>
+                    <td width="100%" height="10" style="font-size: 1px;"> </td>
+                </tr>
+            </tbody>
+        </table>
+    </td>
+</tr>                            								                			        
+                    <tr>
+    <td width="100%" align="left" class="mobile-margin">
+        <table width="100%" cellspacing="0" cellpadding="0" border="0" style="width:100%;width:100% !important;">
+            <tbody><tr>
+                <td width="100%" height="10" align="center">
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="#cccccc" height="1" style="max-width:540px; margin:0 auto; background-color: #cccccc;;font-size:1px;line-height:1px;mso-line-height-rule:exactly;height:1px;max-height:1px;display:block;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+                     
+                </td>
+            </tr>
+            <tr>
+                <td width="100%" height="10" align="center">
+                </td>
+            </tr>
+        </tbody></table>
+    </td>
+</tr>                            								                			        
+                    <tr>
+    <td align="center" style="vertical-align:middle;" class="mobile-margin">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%!important;background-color: #FFFFFF;" bgcolor="#FFFFFF">
+            <tbody>
+                <tr>
+                    <td width="100%" height="10" style="font-size: 1px;"> </td>
+                </tr>
+            </tbody>
+        </table>
+    </td>
+</tr>                            								                			        
+                    <tr>
+<!-- TITLE -->
+    <td width="100%" align="left" class="mobile-margin">
+        <table bgcolor="#FFFFFF" style="background-color: #FFFFFF;" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+            <tbody><tr>
+                <td width="100%" style="vertical-align: top; padding: 0px 30px;">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tbody><tr>
+                            <td width="100%">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+                                    <tbody><tr>
+                                        <td width="100%" align="left" style="font-family: Roboto, sans-serif; color:#282828; font-weight:300; font-size: 22px; line-height:26px; vertical-align: middle; text-decoration: none;">
+                                            <div>
+                                                <div>
+                                                    <div style="position: relative;"><div style="text-align: center;">Watch basketball in smooth 60fps...like you&#39;re there IRL</div></div>
+                                                </div>
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>   
+                                </tbody></table>
+                            </td>
+                        </tr>
+                        
+                    </tbody></table>                
+                </td>
+            </tr>
+        </tbody></table>
+    </td>
+<!-- TITLE -->
+</tr>
+                            								                			        
+                    <tr>
+    <td align="center" style="vertical-align:middle;" class="mobile-margin">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%!important;background-color: #FFFFFF;" bgcolor="#FFFFFF">
+            <tbody>
+                <tr>
+                    <td width="100%" height="10" style="font-size: 1px;"> </td>
+                </tr>
+            </tbody>
+        </table>
+    </td>
+</tr>                            								                			        
+                    <tr>
+<!-- SIDE BY SIDE IMAGE AND TEXT -->
+    <td width="100%" align="left" class="mobile-margin">
+        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+            <tbody><tr>
+                <td width="100%" bgcolor="#FFFFFF">
+                    <table width="600" class="wrapper" cellspacing="0" cellpadding="0" border="0" align="center">
+                        <tbody><tr>
+                            <td width="100%">
+                                <!--[if gte mso 9]>
+                                    <table width="600" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td width="300" align="left" valign="top">
+                                                <![endif]-->
+                                                <table width="300" class="wrapper" cellpadding="0" cellspacing="0" border="0" align="left">
+                                                    <tbody><tr>
+                                                        <td width="100%" style="padding-right: 5px; padding-top: 10px;" class="col-padding-mob1" align="center">
+                                                            <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+
+                                                                <tbody><tr>
+                                                                    <td width="100%" style="padding-bottom: 20px;" align="center">
+                                                                        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                                            <tbody><tr>
+                                                                                <td width="100%" align="center">
+                                                                                    <a href="https://tv.youtube.com/browse/UC-P1BaIxsaUGXhRmkSRLtAg?btab=schedule" target="_blank">
+                                                                                        <img src="https://www.emailimagecdnmr47.com/vxo07bqjt3/en_us/images/5be3923e01673-1541640766.0058.png" title="charlotte philadelphia" width="295" height="165" border="0" class="full-width hidden-device" style="display:block;border:none;max-width:100%;width:100%;padding:0px;" alt="charlotte philadelphia">
+                                                                                        <div class="show-img-device" style="display:none;width:0;overflow:hidden;max-height:0!important;">
+                                                                                        <img src="https://www.emailimagecdnmr47.com/vxo07bqjt3/en_us/images/5be3923e01673-1541640766.0058.png" title="charlotte philadelphia" width="295" border="0" class="full-width" style="display:block;border:none;max-width:100%;height:auto" alt="charlotte philadelphia">
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </tbody></table>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td width="100%" align="center" class="cta-padding-mob" style="padding-bottom: 20px; padding-left: 15px; padding-right: 15px;">
+                                                                        <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+                                                                            <tbody><tr>
+                                                                                <td width="100%" align="center" style="font-family:Roboto, sans-serif; color:#282828; font-weight:300; font-size: 16px; line-height:20px; vertical-align: middle;  text-decoration: none;">
+                                                                                    <div>
+                                                                                        <div>
+                                                                                            <div style="color: rgb(40, 40, 40); font-weight: 300; font-size: 16px; line-height: 20px; position: relative;"><p style="margin:0">Charlotte vs. Philadelphia</p><p style="margin:0">Fri | NBA TV | 7p ET*</p></div>
+                                                                                        </div>
+                                                                                        
+                                                                                    </div>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </tbody></table>
+                                                                    </td>
+                                                                </tr>
+                                                                                                                                
+                                                                                                                                
+                                                            </tbody></table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody></table>
+                                                <!--[if gte mso 9]>
+                                            </td>
+                                            <td width="300" align="left" valign="top">
+                                                <![endif]-->
+                                                    <table width="300" class="wrapper" cellpadding="0" cellspacing="0" border="0" align="left">
+                                                        <tbody><tr>
+                                                            <td width="100%" style="padding-left: 5px; padding-top: 10px;" class="col-padding-mob1" align="center">
+                                                                <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                                    <tbody><tr>
+                                                                        <td width="100%" style="padding-bottom: 20px;">
+                                                                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                                                <tbody><tr>
+                                                                                    <td width="100%" align="left">
+                                                                                        <a href="https://tv.youtube.com/browse/UC-P1BaIxsaUGXhRmkSRLtAg?btab=schedule" target="_blank">
+                                                                                            <img src="https://www.emailimagecdnmr47.com/vxo07bqjt3/en_us/images/5be397563ea2d-1541642070.2566.png" title="houston san antonio" width="295" height="165" border="0" class="full-width hidden-device" style="display:block;border:none;max-width:100%;width:100%;padding:0px;" alt="houston san antonio">
+                                                                                            <div class="show-img-device" style="display:none;width:0;overflow:hidden;max-height:0!important;">
+                                                                                            <img src="https://www.emailimagecdnmr47.com/vxo07bqjt3/en_us/images/5be397563ea2d-1541642070.2566.png" title="houston san antonio" width="295" border="0" class="full-width" style="display:block;border:none;max-width:100%;height:auto" alt="houston san antonio">
+                                                                                            </div>
+                                                                                        </a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody></table>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td width="100%" class="cta-padding-mob2" style="padding-bottom: 20px; padding-left: 15px; padding-right: 15px;">
+                                                                            <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+                                                                                <tbody><tr>
+                                                                                    <td width="100%" align="center" style="font-family:Roboto, sans-serif; color:#282828; font-weight:300; font-size: 16px; line-height:20px; vertical-align: middle;  text-decoration: none;">
+                                                                                        <div>
+                                                                                            <div>
+                                                                                                <div dd="" style="color: rgb(40, 40, 40); font-weight: 300; font-size: 16px; line-height: 20px; position: relative;"><p style="margin:0">Houston vs. San Antonio</p><p style="margin:0">Sat | NBA TV | 8:30p ET*</p></div>
+                                                                                            </div>
+                                                                                            
+                                                                                        </div>
+                                                                                    </td>
+                                                                                </tr>   
+                                                                            </tbody></table>
+                                                                        </td>
+                                                                    </tr>
+                                                                                                                                        
+                                                                                                                                        
+                                                                </tbody></table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody></table>
+                                                <!--[if gte mso 9]>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                <![endif]-->
+                            </td>               
+                        </tr>
+                    </tbody></table>
+                </td>
+            </tr>
+        </tbody></table>
+    </td>
+<!-- SIDE BY SIDE IMAGE AND TEXT -->
+</tr>
+                            								                			        
+                    <tr>
+<!-- BODY TEXT -->
+    <td width="100%" align="left" class="mobile-margin">
+        <table bgcolor="#FFFFFF" style="background-color: #FFFFFF;" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+            <tbody><tr>
+                <td width="100%" style="vertical-align: top; padding: 0px 30px;">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tbody><tr>
+                            <td width="100%">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+                                    <tbody><tr>
+                                        <td width="100%" align="left" style="font-family: Roboto, sans-serif; color:#808080; font-weight:300; font-size: 16px; line-height:20px; vertical-align: middle;  text-decoration: none;">
+                                            <div>
+                                                <div>
+                                                    <div style="position: relative;"><div style="text-align: center;">All of our networks are available in 60fps across a variety of devices, including most mobile phones, casting devices, and smart TVs. Catch your favorite basketball teams and other sports in crisp quality.<br></div></div>
+                                                </div>
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>   
+                                </tbody></table>
+                            </td>
+                        </tr>
+                    </tbody></table>                
+                </td>
+            </tr>
+        </tbody></table>  
+    </td>
+<!-- BODY TEXT -->
+</tr>
+                            								                			        
+                    <tr>
+    <td align="center" style="vertical-align:middle;" class="mobile-margin">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%!important;background-color: #FFFFFF;" bgcolor="#FFFFFF">
+            <tbody>
+                <tr>
+                    <td width="100%" height="10" style="font-size: 1px;"> </td>
+                </tr>
+            </tbody>
+        </table>
+    </td>
+</tr>                            								                			        
+                    <tr>
+    <td width="100%" align="left" class="mobile-margin">
+        <table width="100%" cellspacing="0" cellpadding="0" border="0" style="width:100%;width:100% !important;">
+            <tbody><tr>
+                <td width="100%" height="10" align="center">
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="#cccccc" height="1" style="max-width:540px; margin:0 auto; background-color: #cccccc;;font-size:1px;line-height:1px;mso-line-height-rule:exactly;height:1px;max-height:1px;display:block;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+                     
+                </td>
+            </tr>
+            <tr>
+                <td width="100%" height="10" align="center">
+                </td>
+            </tr>
+        </tbody></table>
+    </td>
+</tr>                            								                			        
+                    <tr>
+    <td align="center" style="vertical-align:middle;" class="mobile-margin">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%!important;background-color: #FFFFFF;" bgcolor="#FFFFFF">
+            <tbody>
+                <tr>
+                    <td width="100%" height="10" style="font-size: 1px;"> </td>
+                </tr>
+            </tbody>
+        </table>
+    </td>
+</tr>                            								                			        
+                    <tr>
+<!-- TITLE -->
+    <td width="100%" align="left" class="mobile-margin">
+        <table bgcolor="#FFFFFF" style="background-color: #FFFFFF;" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+            <tbody><tr>
+                <td width="100%" style="vertical-align: top; padding: 0px 30px;">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tbody><tr>
+                            <td width="100%">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+                                    <tbody><tr>
+                                        <td width="100%" align="left" style="font-family: Roboto, sans-serif; color:#282828; font-weight:300; font-size: 22px; line-height:26px; vertical-align: middle; text-decoration: none;">
+                                            <div>
+                                                <div>
+                                                    <div style="position: relative;"><div style="text-align: center;">The power is in the hands of the voting fans<br></div></div>
+                                                </div>
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>   
+                                </tbody></table>
+                            </td>
+                        </tr>
+                        
+                    </tbody></table>                
+                </td>
+            </tr>
+        </tbody></table>
+    </td>
+<!-- TITLE -->
+</tr>
+                            								                			        
+                    <tr>
+    <td align="center" style="vertical-align:middle;" class="mobile-margin">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%!important;background-color: #FFFFFF;" bgcolor="#FFFFFF">
+            <tbody>
+                <tr>
+                    <td width="100%" height="10" style="font-size: 1px;"> </td>
+                </tr>
+            </tbody>
+        </table>
+    </td>
+</tr>                            								                			        
+                    <tr>
+    <!-- FULL WIDTH IMAGE -->
+    <td width="100%" align="left" class="mobile-margin" height="auto">
+        <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+            <tbody><tr>
+                <td width="100%" style="vertical-align: top;" height="auto">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tbody><tr>
+                            <td width="100%" height="auto">
+                                <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                    <tbody><tr>
+                                        <td width="100%" align="left" height="auto">
+                                                                                <div style="width: 100%;">
+                                                <a href="https://tv.youtube.com/browse/UCbdzeKj9FwsCSJuundYgphA">
+                                                    <table width="100%" height="auto" cellspacing="0" cellpadding="0" border="0">
+                                                        <tbody><tr>
+                                                            <td width="100%" style="width: 100%;" height="auto">
+                                                                <img src="https://www.emailimagecdnmr47.com/vxo07bqjt3/en_us/images/5be5279cf213e-1541744540.9916.jpg" title="people&#39;s choice" width="600" border="0" class="resize hidden-device" style="display:block; max-width: 100%; height:auto;" alt="people&#39;s choice">
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="show-img-device hide-img-device" style="display: none;">
+                                                            <td width="100" height="auto">
+                                                                <img src="https://www.emailimagecdnmr47.com/vxo07bqjt3/en_us/images/5be5279cf213e-1541744540.9916.jpg" title="people&#39;s choice" width="100" border="0" style="display: block; border: none; min-width: 100%; max-width: 100%; height: auto;" alt="people&#39;s choice">
+                                                            </td>
+                                                        </tr>
+                                                    </tbody></table>
+                                                </a>
+                                            </div>
+                                                                            </td>
+                                    </tr>
+                                </tbody></table>
+                            </td>
+                        </tr>
+                    </tbody></table>                
+                </td>
+            </tr>
+        </tbody></table>
+    </td>
+<!-- SECTION IMAGE -->
+</tr>  
+                            
+                            								                			        
+                    <tr>
+    <td align="center" style="vertical-align:middle;" class="mobile-margin">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%!important;background-color: #FFFFFF;" bgcolor="#FFFFFF">
+            <tbody>
+                <tr>
+                    <td width="100%" height="20" style="font-size: 1px;"> </td>
+                </tr>
+            </tbody>
+        </table>
+    </td>
+</tr>                            								                			        
+                    <tr>
+<!-- BODY TEXT -->
+    <td width="100%" align="left" class="mobile-margin">
+        <table bgcolor="#FFFFFF" style="background-color: #FFFFFF;" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+            <tbody><tr>
+                <td width="100%" style="vertical-align: top; padding: 0px 30px;">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tbody><tr>
+                            <td width="100%">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+                                    <tbody><tr>
+                                        <td width="100%" align="left" style="font-family: Roboto, sans-serif; color:#808080; font-weight:300; font-size: 16px; line-height:20px; vertical-align: middle;  text-decoration: none;">
+                                            <div>
+                                                <div>
+                                                    <div style="position: relative;"><div style="text-align: center;"><span style="font-size: 16px; color: rgb(128, 128, 128); line-height: 20px !important;">E! People&#39;s Choice Awards</span></div><div style="text-align: center;"><span style="font-size: 16px; color: rgb(128, 128, 128); line-height: 20px !important;">Sun | E! | 9/8c</span><br></div></div>
+                                                </div>
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>   
+                                </tbody></table>
+                            </td>
+                        </tr>
+                    </tbody></table>                
+                </td>
+            </tr>
+        </tbody></table>  
+    </td>
+<!-- BODY TEXT -->
+</tr>
+                            								                			        
+                    <tr>
+    <td align="center" style="vertical-align:middle;" class="mobile-margin">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%!important;background-color: #FFFFFF;" bgcolor="#FFFFFF">
+            <tbody>
+                <tr>
+                    <td width="100%" height="10" style="font-size: 1px;"> </td>
+                </tr>
+            </tbody>
+        </table>
+    </td>
+</tr>                            								                			        
+                    <tr>
+    <td width="100%" align="left" class="mobile-margin">
+        <table width="100%" cellspacing="0" cellpadding="0" border="0" style="width:100%;width:100% !important;">
+            <tbody><tr>
+                <td width="100%" height="10" align="center">
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="#cccccc" height="1" style="max-width:540px; margin:0 auto; background-color: #cccccc;;font-size:1px;line-height:1px;mso-line-height-rule:exactly;height:1px;max-height:1px;display:block;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+                     
+                </td>
+            </tr>
+            <tr>
+                <td width="100%" height="10" align="center">
+                </td>
+            </tr>
+        </tbody></table>
+    </td>
+</tr>                            								                			        
+                    <tr>
+    <td align="center" style="vertical-align:middle;" class="mobile-margin">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%!important;background-color: #FFFFFF;" bgcolor="#FFFFFF">
+            <tbody>
+                <tr>
+                    <td width="100%" height="10" style="font-size: 1px;"> </td>
+                </tr>
+            </tbody>
+        </table>
+    </td>
+</tr>                            								                			        
+                    <tr>
+<!-- TITLE -->
+    <td width="100%" align="left" class="mobile-margin">
+        <table bgcolor="#FFFFFF" style="background-color: #FFFFFF;" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+            <tbody><tr>
+                <td width="100%" style="vertical-align: top; padding: 0px 30px;">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tbody><tr>
+                            <td width="100%">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+                                    <tbody><tr>
+                                        <td width="100%" align="left" style="font-family: Roboto, sans-serif; color:#282828; font-weight:300; font-size: 22px; line-height:26px; vertical-align: middle; text-decoration: none;">
+                                            <div>
+                                                <div>
+                                                    <div style="position: relative;"><div style="text-align: center;">Learn how Army truckers scavenged parts and weapons to turn unarmed trucks into killing machines</div></div>
+                                                </div>
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>   
+                                </tbody></table>
+                            </td>
+                        </tr>
+                        
+                    </tbody></table>                
+                </td>
+            </tr>
+        </tbody></table>
+    </td>
+<!-- TITLE -->
+</tr>
+                            								                			        
+                    <tr>
+    <td align="center" style="vertical-align:middle;" class="mobile-margin">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%!important;background-color: #FFFFFF;" bgcolor="#FFFFFF">
+            <tbody>
+                <tr>
+                    <td width="100%" height="10" style="font-size: 1px;"> </td>
+                </tr>
+            </tbody>
+        </table>
+    </td>
+</tr>                            								                			        
+                    <tr>
+    <!-- FULL WIDTH IMAGE -->
+    <td width="100%" align="left" class="mobile-margin" height="auto">
+        <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+            <tbody><tr>
+                <td width="100%" style="vertical-align: top;" height="auto">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tbody><tr>
+                            <td width="100%" height="auto">
+                                <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                    <tbody><tr>
+                                        <td width="100%" align="left" height="auto">
+                                                                                <div style="width: 100%;">
+                                                <a href="https://tv.youtube.com/browse/UCpe0a-JqMu_zhlvvIU5DdgA">
+                                                    <table width="100%" height="auto" cellspacing="0" cellpadding="0" border="0">
+                                                        <tbody><tr>
+                                                            <td width="100%" style="width: 100%;" height="auto">
+                                                                <img src="https://www.emailimagecdnmr47.com/vxo07bqjt3/en_us/images/5be09483dcb53-1541444739.904.jpg" title="hero-image" width="600" border="0" class="resize hidden-device" style="display:block; max-width: 100%; height:auto;" alt="hero-image">
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="show-img-device hide-img-device" style="display: none;">
+                                                            <td width="100" height="auto">
+                                                                <img src="https://www.emailimagecdnmr47.com/vxo07bqjt3/en_us/images/5be09483dcb53-1541444739.904.jpg" title="" width="100" border="0" style="display: block; border: none; min-width: 100%; max-width: 100%; height: auto;" alt="">
+                                                            </td>
+                                                        </tr>
+                                                    </tbody></table>
+                                                </a>
+                                            </div>
+                                                                            </td>
+                                    </tr>
+                                </tbody></table>
+                            </td>
+                        </tr>
+                    </tbody></table>                
+                </td>
+            </tr>
+        </tbody></table>
+    </td>
+<!-- SECTION IMAGE -->
+</tr>  
+                            
+                            								                			        
+                    <tr>
+    <td align="center" style="vertical-align:middle;" class="mobile-margin">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%!important;background-color: #FFFFFF;" bgcolor="#FFFFFF">
+            <tbody>
+                <tr>
+                    <td width="100%" height="20" style="font-size: 1px;"> </td>
+                </tr>
+            </tbody>
+        </table>
+    </td>
+</tr>                            								                			        
+                    <tr>
+<!-- BODY TEXT -->
+    <td width="100%" align="left" class="mobile-margin">
+        <table bgcolor="#FFFFFF" style="background-color: #FFFFFF;" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+            <tbody><tr>
+                <td width="100%" style="vertical-align: top; padding: 0px 30px;">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tbody><tr>
+                            <td width="100%">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+                                    <tbody><tr>
+                                        <td width="100%" align="left" style="font-family: Roboto, sans-serif; color:#808080; font-weight:300; font-size: 16px; line-height:20px; vertical-align: middle;  text-decoration: none;">
+                                            <div>
+                                                <div>
+                                                    <div style="position: relative;"><div style="text-align: center;">Gun Trucks of Vietnam<br></div><div style="text-align: center;">Sun | Smithsonian | 9/8c</div></div>
+                                                </div>
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>   
+                                </tbody></table>
+                            </td>
+                        </tr>
+                    </tbody></table>                
+                </td>
+            </tr>
+        </tbody></table>  
+    </td>
+<!-- BODY TEXT -->
+</tr>
+                            								                			        
+                    <tr>
+    <td align="center" style="vertical-align:middle;" class="mobile-margin">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%!important;background-color: #FFFFFF;" bgcolor="#FFFFFF">
+            <tbody>
+                <tr>
+                    <td width="100%" height="10" style="font-size: 1px;"> </td>
+                </tr>
+            </tbody>
+        </table>
+    </td>
+</tr>                            								                			        
+                    <tr>
+    <td width="100%" align="left" class="mobile-margin">
+        <table width="100%" cellspacing="0" cellpadding="0" border="0" style="width:100%;width:100% !important;">
+            <tbody><tr>
+                <td width="100%" height="10" align="center">
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="#cccccc" height="1" style="max-width:540px; margin:0 auto; background-color: #cccccc;;font-size:1px;line-height:1px;mso-line-height-rule:exactly;height:1px;max-height:1px;display:block;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+                     
+                </td>
+            </tr>
+            <tr>
+                <td width="100%" height="10" align="center">
+                </td>
+            </tr>
+        </tbody></table>
+    </td>
+</tr>                            								                			        
+                    <tr>
+    <td align="center" style="vertical-align:middle;" class="mobile-margin">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%!important;background-color: #FFFFFF;" bgcolor="#FFFFFF">
+            <tbody>
+                <tr>
+                    <td width="100%" height="10" style="font-size: 1px;"> </td>
+                </tr>
+            </tbody>
+        </table>
+    </td>
+</tr>                            								                			        
+                    <tr>
+<!-- TITLE -->
+    <td width="100%" align="left" class="mobile-margin">
+        <table bgcolor="#FFFFFF" style="background-color: #FFFFFF;" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+            <tbody><tr>
+                <td width="100%" style="vertical-align: top; padding: 0px 30px;">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tbody><tr>
+                            <td width="100%">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+                                    <tbody><tr>
+                                        <td width="100%" align="left" style="font-family: Roboto, sans-serif; color:#282828; font-weight:300; font-size: 22px; line-height:26px; vertical-align: middle; text-decoration: none;">
+                                            <div>
+                                                <div>
+                                                    <div style="position: relative;"><div style="text-align: center;">A six-part miniseries about the modern-day space race to this distant planet</div></div>
+                                                </div>
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>   
+                                </tbody></table>
+                            </td>
+                        </tr>
+                        
+                    </tbody></table>                
+                </td>
+            </tr>
+        </tbody></table>
+    </td>
+<!-- TITLE -->
+</tr>
+                            								                			        
+                    <tr>
+    <td align="center" style="vertical-align:middle;" class="mobile-margin">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%!important;background-color: #FFFFFF;" bgcolor="#FFFFFF">
+            <tbody>
+                <tr>
+                    <td width="100%" height="10" style="font-size: 1px;"> </td>
+                </tr>
+            </tbody>
+        </table>
+    </td>
+</tr>                            								                			        
+                    <tr>
+    <!-- FULL WIDTH IMAGE -->
+    <td width="100%" align="left" class="mobile-margin" height="auto">
+        <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+            <tbody><tr>
+                <td width="100%" style="vertical-align: top;" height="auto">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tbody><tr>
+                            <td width="100%" height="auto">
+                                <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                    <tbody><tr>
+                                        <td width="100%" align="left" height="auto">
+                                                                                <div style="width: 100%;">
+                                                <a href="https://tv.youtube.com/browse/UCKD7VGiZfX4NSlhF-xiVOsA">
+                                                    <table width="100%" height="auto" cellspacing="0" cellpadding="0" border="0">
+                                                        <tbody><tr>
+                                                            <td width="100%" style="width: 100%;" height="auto">
+                                                                <img src="https://www.emailimagecdnmr47.com/vxo07bqjt3/en_us/images/5be093b0b3cd1-1541444528.7365.jpg" title="hero-image" width="600" border="0" class="resize hidden-device" style="display:block; max-width: 100%; height:auto;" alt="hero-image">
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="show-img-device hide-img-device" style="display: none;">
+                                                            <td width="100" height="auto">
+                                                                <img src="https://www.emailimagecdnmr47.com/vxo07bqjt3/en_us/images/5be093b0b3cd1-1541444528.7365.jpg" title="" width="100" border="0" style="display: block; border: none; min-width: 100%; max-width: 100%; height: auto;" alt="">
+                                                            </td>
+                                                        </tr>
+                                                    </tbody></table>
+                                                </a>
+                                            </div>
+                                                                            </td>
+                                    </tr>
+                                </tbody></table>
+                            </td>
+                        </tr>
+                    </tbody></table>                
+                </td>
+            </tr>
+        </tbody></table>
+    </td>
+<!-- SECTION IMAGE -->
+</tr>  
+                            
+                            								                			        
+                    <tr>
+    <td align="center" style="vertical-align:middle;" class="mobile-margin">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%!important;background-color: #FFFFFF;" bgcolor="#FFFFFF">
+            <tbody>
+                <tr>
+                    <td width="100%" height="20" style="font-size: 1px;"> </td>
+                </tr>
+            </tbody>
+        </table>
+    </td>
+</tr>                            								                			        
+                    <tr>
+<!-- BODY TEXT -->
+    <td width="100%" align="left" class="mobile-margin">
+        <table bgcolor="#FFFFFF" style="background-color: #FFFFFF;" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+            <tbody><tr>
+                <td width="100%" style="vertical-align: top; padding: 0px 30px;">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tbody><tr>
+                            <td width="100%">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+                                    <tbody><tr>
+                                        <td width="100%" align="left" style="font-family: Roboto, sans-serif; color:#808080; font-weight:300; font-size: 16px; line-height:20px; vertical-align: middle;  text-decoration: none;">
+                                            <div>
+                                                <div>
+                                                    <div style="position: relative;"><div style="margin: 0px; text-align: center;">Mars</div><div style="margin: 0px; text-align: center;">Mon | National Geographic | 9/8c</div></div>
+                                                </div>
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>   
+                                </tbody></table>
+                            </td>
+                        </tr>
+                    </tbody></table>                
+                </td>
+            </tr>
+        </tbody></table>  
+    </td>
+<!-- BODY TEXT -->
+</tr>
+                            								                			        
+                    <tr>
+    <td align="center" style="vertical-align:middle;" class="mobile-margin">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%!important;background-color: #FFFFFF;" bgcolor="#FFFFFF">
+            <tbody>
+                <tr>
+                    <td width="100%" height="10" style="font-size: 1px;"> </td>
+                </tr>
+            </tbody>
+        </table>
+    </td>
+</tr>                            								                			        
+                    <tr>
+    <td width="100%" align="left" class="mobile-margin">
+        <table width="100%" cellspacing="0" cellpadding="0" border="0" style="width:100%;width:100% !important;">
+            <tbody><tr>
+                <td width="100%" height="10" align="center">
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="#cccccc" height="1" style="max-width:540px; margin:0 auto; background-color: #cccccc;;font-size:1px;line-height:1px;mso-line-height-rule:exactly;height:1px;max-height:1px;display:block;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+                     
+                </td>
+            </tr>
+            <tr>
+                <td width="100%" height="10" align="center">
+                </td>
+            </tr>
+        </tbody></table>
+    </td>
+</tr>                            								                			        
+                    <tr>
+    <td align="center" style="vertical-align:middle;" class="mobile-margin">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%!important;background-color: #FFFFFF;" bgcolor="#FFFFFF">
+            <tbody>
+                <tr>
+                    <td width="100%" height="10" style="font-size: 1px;"> </td>
+                </tr>
+            </tbody>
+        </table>
+    </td>
+</tr>                            								                			        
+                    <tr>
+<!-- TITLE -->
+    <td width="100%" align="left" class="mobile-margin">
+        <table bgcolor="#FFFFFF" style="background-color: #FFFFFF;" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+            <tbody><tr>
+                <td width="100%" style="vertical-align: top; padding: 0px 30px;">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tbody><tr>
+                            <td width="100%">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+                                    <tbody><tr>
+                                        <td width="100%" align="left" style="font-family: Roboto, sans-serif; color:#282828; font-weight:300; font-size: 22px; line-height:26px; vertical-align: middle; text-decoration: none;">
+                                            <div>
+                                                <div>
+                                                    <div style="position: relative;"><div style="text-align: center;">The evolution of the NBA from humble beginnings into a worldwide powerhouse</div></div>
+                                                </div>
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>   
+                                </tbody></table>
+                            </td>
+                        </tr>
+                        
+                    </tbody></table>                
+                </td>
+            </tr>
+        </tbody></table>
+    </td>
+<!-- TITLE -->
+</tr>
+                            								                			        
+                    <tr>
+    <td align="center" style="vertical-align:middle;" class="mobile-margin">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%!important;background-color: #FFFFFF;" bgcolor="#FFFFFF">
+            <tbody>
+                <tr>
+                    <td width="100%" height="10" style="font-size: 1px;"> </td>
+                </tr>
+            </tbody>
+        </table>
+    </td>
+</tr>                            								                			        
+                    <tr>
+    <!-- FULL WIDTH IMAGE -->
+    <td width="100%" align="left" class="mobile-margin" height="auto">
+        <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+            <tbody><tr>
+                <td width="100%" style="vertical-align: top;" height="auto">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tbody><tr>
+                            <td width="100%" height="auto">
+                                <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                    <tbody><tr>
+                                        <td width="100%" align="left" height="auto">
+                                                                                <div style="width: 100%;">
+                                                <a href="https://tv.youtube.com/settings/subscriptions">
+                                                    <table width="100%" height="auto" cellspacing="0" cellpadding="0" border="0">
+                                                        <tbody><tr>
+                                                            <td width="100%" style="width: 100%;" height="auto">
+                                                                <img src="https://www.emailimagecdnmr47.com/vxo07bqjt3/en_us/images/5be38f546e3ee-1541640020.4516.jpg" title="hero-image" width="600" border="0" class="resize hidden-device" style="display:block; max-width: 100%; height:auto;" alt="hero-image">
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="show-img-device hide-img-device" style="display: none;">
+                                                            <td width="100" height="auto">
+                                                                <img src="https://www.emailimagecdnmr47.com/vxo07bqjt3/en_us/images/5be38f546e3ee-1541640020.4516.jpg" title="" width="100" border="0" style="display: block; border: none; min-width: 100%; max-width: 100%; height: auto;" alt="">
+                                                            </td>
+                                                        </tr>
+                                                    </tbody></table>
+                                                </a>
+                                            </div>
+                                                                            </td>
+                                    </tr>
+                                </tbody></table>
+                            </td>
+                        </tr>
+                    </tbody></table>                
+                </td>
+            </tr>
+        </tbody></table>
+    </td>
+<!-- SECTION IMAGE -->
+</tr>  
+                            
+                            								                			        
+                    <tr>
+    <td align="center" style="vertical-align:middle;" class="mobile-margin">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%!important;background-color: #FFFFFF;" bgcolor="#FFFFFF">
+            <tbody>
+                <tr>
+                    <td width="100%" height="20" style="font-size: 1px;"> </td>
+                </tr>
+            </tbody>
+        </table>
+    </td>
+</tr>                            								                			        
+                    <tr>
+<!-- BODY TEXT -->
+    <td width="100%" align="left" class="mobile-margin">
+        <table bgcolor="#FFFFFF" style="background-color: #FFFFFF;" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+            <tbody><tr>
+                <td width="100%" style="vertical-align: top; padding: 0px 30px;">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tbody><tr>
+                            <td width="100%">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+                                    <tbody><tr>
+                                        <td width="100%" align="left" style="font-family: Roboto, sans-serif; color:#808080; font-weight:300; font-size: 16px; line-height:20px; vertical-align: middle;  text-decoration: none;">
+                                            <div>
+                                                <div>
+                                                    <div style="position: relative;"><div style="margin: 0px; text-align: center;">Shut Up &amp; Dribble</div><div style="margin: 0px; text-align: center;">Sat | SHOWTIME | 9p ET/PT</div><div style="margin: 0px; text-align: center;"><br><span style="font-size: 14px; color: rgb(128, 128, 128); line-height: 18px !important;"><em>Need SHOWTIME®? Use your computer to add it in your account settings. Available for an extra charge.</em></span><br></div></div>
+                                                </div>
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>   
+                                </tbody></table>
+                            </td>
+                        </tr>
+                    </tbody></table>                
+                </td>
+            </tr>
+        </tbody></table>  
+    </td>
+<!-- BODY TEXT -->
+</tr>
+                            								                			        
+                    <tr>
+    <td align="center" style="vertical-align:middle;" class="mobile-margin">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%!important;background-color: #FFFFFF;" bgcolor="#FFFFFF">
+            <tbody>
+                <tr>
+                    <td width="100%" height="10" style="font-size: 1px;"> </td>
+                </tr>
+            </tbody>
+        </table>
+    </td>
+</tr>                            								                			        
+                    <tr>
+    <td width="100%" align="left" class="mobile-margin">
+        <table width="100%" cellspacing="0" cellpadding="0" border="0" style="width:100%;width:100% !important;">
+            <tbody><tr>
+                <td width="100%" height="10" align="center">
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="#cccccc" height="1" style="max-width:540px; margin:0 auto; background-color: #cccccc;;font-size:1px;line-height:1px;mso-line-height-rule:exactly;height:1px;max-height:1px;display:block;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+                     
+                </td>
+            </tr>
+            <tr>
+                <td width="100%" height="10" align="center">
+                </td>
+            </tr>
+        </tbody></table>
+    </td>
+</tr>                            								                			        
+                    <tr>
+    <td align="center" style="vertical-align:middle;" class="mobile-margin">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%!important;background-color: #FFFFFF;" bgcolor="#FFFFFF">
+            <tbody>
+                <tr>
+                    <td width="100%" height="10" style="font-size: 1px;"> </td>
+                </tr>
+            </tbody>
+        </table>
+    </td>
+</tr>                            								                			        
+                    <tr>
+<!-- BODY TEXT -->
+    <td width="100%" align="left" class="mobile-margin">
+        <table bgcolor="#FFFFFF" style="background-color: #FFFFFF;" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+            <tbody><tr>
+                <td width="100%" style="vertical-align: top; padding: 0px 30px;">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tbody><tr>
+                            <td width="100%">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+                                    <tbody><tr>
+                                        <td width="100%" align="left" style="font-family: Roboto, sans-serif; color:#808080; font-weight:300; font-size: 16px; line-height:20px; vertical-align: middle;  text-decoration: none;">
+                                            <div>
+                                                <div>
+                                                    <div style="position: relative;"><div style="margin: 0px; text-align: center;">Don&#39;t forget, you can set reminders for all of the shows, games, news, movies, specials, etc, etc, etc on YouTube TV.</div></div>
+                                                </div>
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>   
+                                </tbody></table>
+                            </td>
+                        </tr>
+                    </tbody></table>                
+                </td>
+            </tr>
+        </tbody></table>  
+    </td>
+<!-- BODY TEXT -->
+</tr>
+                            								                			        
+                    <tr>
+    <td align="center" style="vertical-align:middle;" class="mobile-margin">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%!important;background-color: #FFFFFF;" bgcolor="#FFFFFF">
+            <tbody>
+                <tr>
+                    <td width="100%" height="10" style="font-size: 1px;"> </td>
+                </tr>
+            </tbody>
+        </table>
+    </td>
+</tr>                            								                			        
+                    <tr>
+<!-- CTA --> 
+    <td width="100%" class="mobile-margin" style="min-width: 100%;">
+        <table width="100%" cellspacing="0" cellpadding="0" border="0" style="min-width: 100%;">
+            <tbody><tr class="cta-stacked">
+                                <td width="100%" bgcolor="#FFFFFF" style="min-width: 100%;">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0" style="min-width: 100%;">
+                        <tbody><tr>
+                            <td width="100%" align="center" style="padding: 10px 30px; min-width: 100%;">
+                                <table width="auto" height="auto" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#FF0000" style="background: #FF0000;">
+                                    <tbody><tr>
+                                        <td width="auto" height="auto" align="center" style="font-family:Roboto, sans-serif; color: #ffffff; font-weight: 300; vertical-align: middle; text-decoration: none; padding: 10px 30px; width: auto; height: auto; text-transform: uppercase;">
+                                            <a href="http://tv.youtube.com" target="_blank" class="cta-red action-config" style="font-family:Roboto, sans-serif; color: #ffffff !important; font-weight:300; font-size: 14px; vertical-align: middle; text-decoration: none; text-transform: uppercase;">
+                                                <span style="Roboto, sans-serif; color: #ffffff !important; font-weight:300; font-size: 14px; vertical-align: middle; text-decoration: none; text-transform: uppercase;">
+                                                    SET REMINDERS
+                                                </span>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody></table>
+                            </td>
+                        </tr>
+                                 
+                    </tbody></table>
+                </td>
+                            </tr>
+            
+            
+        </tbody></table>
+    </td>
+<!-- CTA -->    
+</tr>                            								                			        
+                    <tr>
+    <td align="center" style="vertical-align:middle;" class="mobile-margin">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%!important;background-color: #FFFFFF;" bgcolor="#FFFFFF">
+            <tbody>
+                <tr>
+                    <td width="100%" height="10" style="font-size: 1px;"> </td>
+                </tr>
+            </tbody>
+        </table>
+    </td>
+</tr>                            								                			        
+                    <tr>
+<!-- BODY TEXT -->
+    <td width="100%" align="left" class="mobile-margin">
+        <table bgcolor="#FFFFFF" style="background-color: #FFFFFF;" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+            <tbody><tr>
+                <td width="100%" style="vertical-align: top; padding: 0px 30px;">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tbody><tr>
+                            <td width="100%">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+                                    <tbody><tr>
+                                        <td width="100%" align="left" style="font-family: Roboto, sans-serif; color:#808080; font-weight:300; font-size: 16px; line-height:20px; vertical-align: middle;  text-decoration: none;">
+                                            <div>
+                                                <div>
+                                                    <div style="position: relative;"><div style="margin: 0px; text-align: center;"><span style="font-size: 12px; color: rgb(128, 128, 128); line-height: 16px !important;">Tap the bell to get started. Notifications available on mobile only.</span></div></div>
+                                                </div>
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>   
+                                </tbody></table>
+                            </td>
+                        </tr>
+                    </tbody></table>                
+                </td>
+            </tr>
+        </tbody></table>  
+    </td>
+<!-- BODY TEXT -->
+</tr>
+                            								                			        
+                    <tr>
+    <td align="center" style="vertical-align:middle;" class="mobile-margin">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%!important;background-color: #FFFFFF;" bgcolor="#FFFFFF">
+            <tbody>
+                <tr>
+                    <td width="100%" height="10" style="font-size: 1px;"> </td>
+                </tr>
+            </tbody>
+        </table>
+    </td>
+</tr>                            								                			        
+                    <tr>
+    <td width="100%" align="left" class="mobile-margin">
+        <table width="100%" cellspacing="0" cellpadding="0" border="0" style="width:100%;width:100% !important;">
+            <tbody><tr>
+                <td width="100%" height="10" align="center">
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="#cccccc" height="1" style="max-width:540px; margin:0 auto; background-color: #cccccc;;font-size:1px;line-height:1px;mso-line-height-rule:exactly;height:1px;max-height:1px;display:block;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+                     
+                </td>
+            </tr>
+            <tr>
+                <td width="100%" height="10" align="center">
+                </td>
+            </tr>
+        </tbody></table>
+    </td>
+</tr>                            								                			        
+                    <tr>
+    <td align="center" style="vertical-align:middle;" class="mobile-margin">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%!important;background-color: #FFFFFF;" bgcolor="#FFFFFF">
+            <tbody>
+                <tr>
+                    <td width="100%" height="10" style="font-size: 1px;"> </td>
+                </tr>
+            </tbody>
+        </table>
+    </td>
+</tr>                            								                			        
+                    <!-- HAPPY WATCHING -->
+<tr>
+    <td width="100%" style="padding: 30px 60px;" class="mobile-margin">
+        <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+            <tbody><tr>
+                <td width="100%" style="vertical-align: top; padding-bottom: 10px;">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tbody><tr>
+                            <td width="100%">
+                                <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                    <tbody><tr>
+                                        <td width="100%" align="center">
+                                            <img src="https://www.emailimagecdnmr47.com/vxo07bqjt3/en_us/images/title-happy-watching.png" width="237" height="34" border="0" alt="">
+                                        </td>
+                                    </tr>
+                                </tbody></table>
+                            </td>
+                        </tr>
+                    </tbody></table>                
+                </td>
+            </tr>
+            <tr>
+                <td width="100%" style="vertical-align: top; padding-bottom: 30px;">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tbody><tr>
+                            <td width="100%">
+                                <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                    <tbody><tr>
+                                        <td width="100%" align="center">
+                                            <img src="https://www.emailimagecdnmr47.com/vxo07bqjt3/en_us/images/yt_header_default.png" width="230" height="45" border="0" alt="">
+                                        </td>
+                                    </tr>
+                                </tbody></table>
+                            </td>
+                        </tr>
+                    </tbody></table>                
+                </td>
+            </tr>
+            <tr>
+                <td width="100%" style="vertical-align: top; padding-bottom: 30px;">
+                    <table border="0" cellspacing="0" cellpadding="0" align="center">
+                        <tbody><tr>
+                            <td>
+                                <p style="color:#000000; font-size:15px; font-weight:700; margin:0px; padding:0px!important; text-align:center;font-family:&#39;Open Sans&#39;, Helvetica, Arial, sans-serif; line-height:20px;">
+                                    <a href="https://www.twitter.com/youtubetv" target="_blank" style="text-decoration:none; color:#000000 !important;">
+                                        <img src="https://www.emailimagecdnmr47.com/vxo07bqjt3/en_us/images/icn-twitter.png" title="Twitter" width="17" border="0" style="vertical-align:baseline;display:inline!important;" alt="Twitter">
+                                        @YouTubeTV
+                                    </a>
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody></table>            
+                </td>
+            </tr>
+            <tr>
+                <td width="100%" align="left" style="padding-bottom: 20px; padding-left: 30px; padding-right: 30px">
+                    <table width="100%" border="0" cellpadding="0" cellspacing="0" align="left">
+                        <tbody><tr>
+                            <td width="100%" align="center" style="font-family: Roboto, sans-serif; color:#808080; font-weight:300; font-size: 16px; line-height:20px; vertical-align: middle; text-decoration: none;">
+                               Need help? Reach us anytime (like...24 hours a day)<br> through phone, email, or chat support.
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            </tr>
+            <tr>
+                <td width="100%">
+                    <table cellpadding="0" cellspacing="0" border="0" width="122" align="center">
+                        <tbody><tr>                
+                            <td align="left" style="vertical-align:top; padding-right: 30px;" width="20">
+                                <a href="https://support.google.com/youtubetv/?p=contact_us" target="_blank">
+                                    <img src="https://www.emailimagecdnmr47.com/vxo07bqjt3/en_us/images/opt-phone.png" width="20" border="0" style="display:block;" alt="">
+                                </a>
+                            </td>
+                            <td align="left" style="vertical-align:top; padding-right: 30px;" width="21">
+                                <a href="https://support.google.com/youtubetv/?p=contact_us" target="_blank">
+                                    <img src="https://www.emailimagecdnmr47.com/vxo07bqjt3/en_us/images/opt-email.png" width="21" border="0" style="display:block;" alt="">
+                                </a>
+                            </td>
+                            <td align="left" style="vertical-align:top;" width="21">
+                                <a href="https://support.google.com/youtubetv/?p=contact_us" target="_blank">
+                                    <img src="https://www.emailimagecdnmr47.com/vxo07bqjt3/en_us/images/opt-chat.png" width="21" border="0" style="display:block;" alt="">
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            </tr> 
+        </tbody></table> 
+    </td>
+</tr>
+<!-- HAPPY WATCHING -->                            								                			        
+                    <tr>
+    <td width="100%" align="left" class="mobile-margin">
+        <table width="100%" cellspacing="0" cellpadding="0" border="0" style="width:100%;width:100% !important;">
+            <tbody><tr>
+                <td width="100%" height="10" align="center">
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="#cccccc" height="1" style="max-width:540px; margin:0 auto; background-color: #cccccc;;font-size:1px;line-height:1px;mso-line-height-rule:exactly;height:1px;max-height:1px;display:block;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+                     
+                </td>
+            </tr>
+            <tr>
+                <td width="100%" height="10" align="center">
+                </td>
+            </tr>
+        </tbody></table>
+    </td>
+</tr>                            								                			        
+                    <tr>
+    <!-- FOOTER (RED)-->
+    <td width="100%" class="mobile-margin">
+        <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+            <tbody><tr>
+                <td width="100%" style="vertical-align: top; padding: 20px 30px;">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tbody><tr>
+                            <td width="100%" align="center">
+                                <table width="100%" border="0" cellpadding="0" cellspacing="0" align="left">
+                                    <tbody><tr>
+                                        <td width="100%" align="center" style="font-family: Roboto, Arial, Helvetica, sans-serif; color: rgb(148, 148, 148); font-weight: normal; font-size: 12px; line-height: 18px; vertical-align: middle; text-decoration: none; text-align: left; position: relative;"><div style="margin: 0;">*Local viewing blackout restrictions apply</div><div style="margin: 0;"> <br></div><div style="margin: 0;">All trademarks are property of their respective owners. SHOWTIME© is a registered trademark of Showtime Networks Inc., a CBS Company. Shut Up &amp; Dribble © Showtime Networks Inc. All rights reserved.</div><div style="margin: 0;"> <br></div><div style="margin: 0;"><span>© 2018 YouTube LLC, 901 Cherry Avenue, San Bruno, CA 94066 </span></div><div style="margin: 0;"><span>P.S. We sent this email to <a class="link" href="mailto:corey.lexmark.test@gmail.com" target="_blank">corey.lexmark.test@gmail.com</a>  because you’re a YouTube TV member. If you don&#39;t want to receive occasional updates, announcements, or videos from us, go ahead and unsubscribe</span><span> <a class="link" href="http://www.google.com/appserve/mkt/p/ABMBUQPkpyxqDgsrClOi5BgJjP_lhp5979wK4moYJQbHwAjUeTcLzbR55KhnRkk3uz_u7P7bzQdn0TFoSeCI_hhDTwZt3qYUvPNoCSTGTtMX9iSuUNw9TWTANxcGGRINhVRb4zXctbUtKS8PuF_jvp4jNGpcBZCIKCCsy5VGdfPXKY_Fse7qXb0o2VylChDHXhzBkFcjjYzUgpVRc_EgtpD76FXXIK_okD_yqYjC9u3LI6NzMku_PjvrynEWfcxygjX16Pvz1PUbHsb8-w" style="font-family: Roboto, Arial, Helvetica, sans-serif; color: #0066bb !important; font-weight: normal; font-size: 12px; line-height: 18px; text-decoration: none;" target="_blank">here</a>. You can also change your preferences by visiting your <a class="link" href="http://www.google.com/appserve/mkt/p/ABMBUQOTj4Nw0tT0P0s2J0e7ZACDCVSLktOsYqxk1T-2RRsoxAuOHpuavQVzmYpXFFs5elYWaIBkXdtWp8vsI3V04tZDKaY_g-ENHRLPyn7krmWFnF7UYaH8cbolhqQFpYocxWsaPpvu" style="font-family: Roboto, Arial, Helvetica, sans-serif; color: #0066bb !important; font-weight: normal; font-size: 12px; line-height: 18px; text-decoration: none;" target="_blank">email options</a> in your YouTube account.</span></div></td>
+                                        
+                                    </tr>
+                                </tbody></table>
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            </tr>
+        </tbody></table>
+    </td>
+    <!-- FOOTER -->
+</tr>
+                            			                    </tbody>
+                    <tfoot>
+                                            </tfoot>
+										</table>
+					</td>
+				</tr>
+			</table>
+		
+	<img height="1" width="3" src="https://www.google.com/appserve/mkt/img/ABMBUQPPa8ykmlZcpm5u2hHGHr7CeRkJ48_oE08u6RJ63IJB.gif"></body>
+
+</html>
+
+

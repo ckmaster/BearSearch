@@ -9,9 +9,18 @@ namespace CommonComponents_NETStandard
     {
         private static string logFile;
 
-        public Logger (string lf)
+        public Logger(string lf)
         {
             logFile = lf;
+        }
+
+        public void CreateAlways(string stringToLog)
+        {
+            using (StreamWriter sw = File.CreateText(logFile))
+            {
+                sw.WriteLine(stringToLog);
+                sw.WriteLine();
+            }
         }
 
         public void CreateOrAppend (string stringToLog, Exception e)
