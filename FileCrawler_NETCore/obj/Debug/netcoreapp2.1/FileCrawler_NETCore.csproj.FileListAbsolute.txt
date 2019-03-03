@@ -1,0 +1,4 @@
+C:\Users\ckmaster\source\repos\BearSearch\FileCrawler_NETCore\obj\Debug\netcoreapp2.1\FileCrawler_NETCore.csprojAssemblyReference.cache
+C:\Users\ckmaster\source\repos\BearSearch\FileCrawler_NETCore\obj\Debug\netcoreapp2.1\FileCrawler_NETCore.csproj.CoreCompileInputs.cache
+C:\Users\ckmaster\source\repos\BearSearch\FileCrawler_NETCore\obj\Debug\netcoreapp2.1\FileCrawler_NETCore.AssemblyInfoInputs.cache
+C:\Users\ckmaster\source\repos\BearSearch\FileCrawler_NETCore\obj\Debug\netcoreapp2.1\FileCrawler_NETCore.AssemblyInfo.cs

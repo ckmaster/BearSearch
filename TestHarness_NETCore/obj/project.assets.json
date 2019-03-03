@@ -2,10 +2,7 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.1": {
-      "ElasticSearch/1.4.2": {
-        "type": "package"
-      },
-      "Elasticsearch.Net/6.4.0": {
+      "Elasticsearch.Net/6.5.0": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Elasticsearch.Net.dll": {}
@@ -205,31 +202,6 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "NEST/6.4.0": {
-        "type": "package",
-        "dependencies": {
-          "Elasticsearch.Net": "[6.4.0, 7.0.0)"
-        },
-        "compile": {
-          "lib/netstandard2.0/Nest.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Nest.dll": {}
-        }
-      },
-      "NEST.JsonNetSerializer/6.4.0": {
-        "type": "package",
-        "dependencies": {
-          "NEST": "[6.4.0, 7.0.0)",
-          "Newtonsoft.Json": "11.0.1"
-        },
-        "compile": {
-          "lib/netstandard2.0/Nest.JsonNetSerializer.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Nest.JsonNetSerializer.dll": {}
-        }
-      },
       "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
@@ -267,35 +239,18 @@
           "bin/placeholder/CommonComponents_NETStandard.dll": {}
         }
       },
-      "Elastic_NETCore/1.0.0": {
+      "Elastic_NETStandard/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
+        "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "CommonComponents_NETStandard": "1.0.0",
-          "ElasticSearch": "1.4.2",
-          "NEST": "6.4.0",
-          "NEST.JsonNetSerializer": "6.4.0",
-          "Newtonsoft.Json": "12.0.1"
+          "Elasticsearch.Net": "6.5.0"
         },
         "compile": {
-          "bin/placeholder/Elastic_NETCore.dll": {}
+          "bin/placeholder/Elastic_NETStandard.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Elastic_NETCore.dll": {}
-        }
-      },
-      "FileCrawler_NETCore/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "dependencies": {
-          "CommonComponents_NETStandard": "1.0.0",
-          "Microsoft.NETCore.App": "2.1.0"
-        },
-        "compile": {
-          "bin/placeholder/FileCrawler_NETCore.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/FileCrawler_NETCore.dll": {}
+          "bin/placeholder/Elastic_NETStandard.dll": {}
         }
       },
       "OutlookCrawler_NETFramework/1.0.0": {
@@ -326,73 +281,14 @@
     }
   },
   "libraries": {
-    "ElasticSearch/1.4.2": {
-      "sha512": "j8/kpwLEm/bsTr5TxwVukdWiTjiBSZegk13zi1YEoWwWtXoAcN/ts2eF9ILwusdp9+lUihya6GKWuBuQ2cvdjA==",
+    "Elasticsearch.Net/6.5.0": {
+      "sha512": "jVPr2vBydd2/xs8xi2XdTklOw4Ztnu3If1lPYtYpyzqlmk4LlvqQv64bKtKZniWVGEIAOTWTxxmQVdqUAp/DrA==",
       "type": "package",
-      "path": "elasticsearch/1.4.2",
+      "path": "elasticsearch.net/6.5.0",
       "files": [
-        "content/LICENSE.txt",
-        "content/NOTICE.txt",
-        "content/README.textile",
-        "content/bin/elasticsearch-service-mgr.exe",
-        "content/bin/elasticsearch-service-x64.exe",
-        "content/bin/elasticsearch-service-x86.exe",
-        "content/bin/elasticsearch.bat",
-        "content/bin/elasticsearch.in.bat",
-        "content/bin/elasticsearch.in.sh",
-        "content/bin/plugin.bat",
-        "content/bin/service.bat",
-        "content/config/elasticsearch.yml",
-        "content/config/logging.yml",
-        "content/lib/antlr-runtime-3.5.jar",
-        "content/lib/asm-4.1.jar",
-        "content/lib/asm-commons-4.1.jar",
-        "content/lib/elasticsearch-1.4.2.jar",
-        "content/lib/groovy-all-2.3.2.jar",
-        "content/lib/jna-4.1.0.jar",
-        "content/lib/jts-1.13.jar",
-        "content/lib/log4j-1.2.17.jar",
-        "content/lib/lucene-analyzers-common-4.10.2.jar",
-        "content/lib/lucene-core-4.10.2.jar",
-        "content/lib/lucene-expressions-4.10.2.jar",
-        "content/lib/lucene-grouping-4.10.2.jar",
-        "content/lib/lucene-highlighter-4.10.2.jar",
-        "content/lib/lucene-join-4.10.2.jar",
-        "content/lib/lucene-memory-4.10.2.jar",
-        "content/lib/lucene-misc-4.10.2.jar",
-        "content/lib/lucene-queries-4.10.2.jar",
-        "content/lib/lucene-queryparser-4.10.2.jar",
-        "content/lib/lucene-sandbox-4.10.2.jar",
-        "content/lib/lucene-spatial-4.10.2.jar",
-        "content/lib/lucene-suggest-4.10.2.jar",
-        "content/lib/sigar/libsigar-amd64-freebsd-6.so",
-        "content/lib/sigar/libsigar-amd64-linux.so",
-        "content/lib/sigar/libsigar-amd64-solaris.so",
-        "content/lib/sigar/libsigar-ia64-linux.so",
-        "content/lib/sigar/libsigar-sparc-solaris.so",
-        "content/lib/sigar/libsigar-sparc64-solaris.so",
-        "content/lib/sigar/libsigar-universal-macosx.dylib",
-        "content/lib/sigar/libsigar-universal64-macosx.dylib",
-        "content/lib/sigar/libsigar-x86-freebsd-5.so",
-        "content/lib/sigar/libsigar-x86-freebsd-6.so",
-        "content/lib/sigar/libsigar-x86-linux.so",
-        "content/lib/sigar/libsigar-x86-solaris.so",
-        "content/lib/sigar/sigar-1.6.4.jar",
-        "content/lib/sigar/sigar-amd64-winnt.dll",
-        "content/lib/sigar/sigar-x86-winnt.dll",
-        "content/lib/sigar/sigar-x86-winnt.lib",
-        "content/lib/spatial4j-0.4.1.jar",
-        "elasticsearch.1.4.2.nupkg.sha512",
-        "elasticsearch.nuspec"
-      ]
-    },
-    "Elasticsearch.Net/6.4.0": {
-      "sha512": "vOnMRC2C2iCfMyMivNhzbRndE4TVmfiXrqNwx87VMlHcOFkjScOpVB3ZufLD96cfs1XooIbY68j7Htf+joFDUA==",
-      "type": "package",
-      "path": "elasticsearch.net/6.4.0",
-      "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
-        "elasticsearch.net.6.4.0.nupkg.sha512",
+        "elasticsearch.net.6.5.0.nupkg.sha512",
         "elasticsearch.net.nuspec",
         "lib/net461/Elasticsearch.Net.dll",
         "lib/net461/Elasticsearch.Net.xml",
@@ -737,32 +633,6 @@
         "version.txt"
       ]
     },
-    "NEST/6.4.0": {
-      "sha512": "EfMc+LCDqfA30DZ0byyMFX93f+ku1sM1wDw6tQByBftI8ggVSPG+KHYAswVuWGEGMDCSoWyFOIU0qp+OHusqrQ==",
-      "type": "package",
-      "path": "nest/6.4.0",
-      "files": [
-        ".signature.p7s",
-        "lib/net461/Nest.dll",
-        "lib/net461/Nest.xml",
-        "lib/netstandard2.0/Nest.dll",
-        "lib/netstandard2.0/Nest.xml",
-        "nest.6.4.0.nupkg.sha512",
-        "nest.nuspec"
-      ]
-    },
-    "NEST.JsonNetSerializer/6.4.0": {
-      "sha512": "K2RTuqUdAXPXmOPM/hNENAiltntB1m5PCzdVGH2RV+q/gyqy4lb7FE0eZ24URciworK81zLFVYO/Qdipwr3WKg==",
-      "type": "package",
-      "path": "nest.jsonnetserializer/6.4.0",
-      "files": [
-        ".signature.p7s",
-        "lib/netstandard2.0/Nest.JsonNetSerializer.dll",
-        "lib/netstandard2.0/Nest.JsonNetSerializer.xml",
-        "nest.jsonnetserializer.6.4.0.nupkg.sha512",
-        "nest.jsonnetserializer.nuspec"
-      ]
-    },
     "NETStandard.Library/2.0.3": {
       "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "type": "package",
@@ -934,15 +804,10 @@
       "path": "../CommonComponents_NETStandard/CommonComponents_NETStandard.csproj",
       "msbuildProject": "../CommonComponents_NETStandard/CommonComponents_NETStandard.csproj"
     },
-    "Elastic_NETCore/1.0.0": {
+    "Elastic_NETStandard/1.0.0": {
       "type": "project",
-      "path": "../Elastic_NETCore/Elastic_NETCore.csproj",
-      "msbuildProject": "../Elastic_NETCore/Elastic_NETCore.csproj"
-    },
-    "FileCrawler_NETCore/1.0.0": {
-      "type": "project",
-      "path": "../FileCrawler_NETCore/FileCrawler_NETCore.csproj",
-      "msbuildProject": "../FileCrawler_NETCore/FileCrawler_NETCore.csproj"
+      "path": "../Elastic_NETStandard/Elastic_NETStandard.csproj",
+      "msbuildProject": "../Elastic_NETStandard/Elastic_NETStandard.csproj"
     },
     "OutlookCrawler_NETFramework/1.0.0": {
       "type": "project",
@@ -958,8 +823,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "CommonComponents_NETStandard >= 1.0.0",
-      "Elastic_NETCore >= 1.0.0",
-      "FileCrawler_NETCore >= 1.0.0",
+      "Elastic_NETStandard >= 1.0.0",
       "Microsoft.NETCore.App >= 2.1.0",
       "OutlookCrawler_NETFramework >= 1.0.0",
       "TikeRest_NETCore >= 1.0.0"
@@ -998,11 +862,8 @@
             "C:\\Users\\ckmaster\\source\\repos\\BearSearch\\CommonComponents_NETStandard\\CommonComponents_NETStandard.csproj": {
               "projectPath": "C:\\Users\\ckmaster\\source\\repos\\BearSearch\\CommonComponents_NETStandard\\CommonComponents_NETStandard.csproj"
             },
-            "C:\\Users\\ckmaster\\source\\repos\\BearSearch\\Elastic_NETCore\\Elastic_NETCore.csproj": {
-              "projectPath": "C:\\Users\\ckmaster\\source\\repos\\BearSearch\\Elastic_NETCore\\Elastic_NETCore.csproj"
-            },
-            "C:\\Users\\ckmaster\\source\\repos\\BearSearch\\FileCrawler_NETCore\\FileCrawler_NETCore.csproj": {
-              "projectPath": "C:\\Users\\ckmaster\\source\\repos\\BearSearch\\FileCrawler_NETCore\\FileCrawler_NETCore.csproj"
+            "C:\\Users\\ckmaster\\source\\repos\\BearSearch\\Elastic_NETStandard\\Elastic_NETStandard.csproj": {
+              "projectPath": "C:\\Users\\ckmaster\\source\\repos\\BearSearch\\Elastic_NETStandard\\Elastic_NETStandard.csproj"
             },
             "C:\\Users\\ckmaster\\source\\repos\\BearSearch\\OutlookCrawler_NetFramework\\OutlookCrawler_NETFramework.csproj": {
               "projectPath": "C:\\Users\\ckmaster\\source\\repos\\BearSearch\\OutlookCrawler_NetFramework\\OutlookCrawler_NETFramework.csproj"

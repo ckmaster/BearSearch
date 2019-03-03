@@ -38,6 +38,8 @@ namespace OutlookCrawler_NETFramework
                     string json = JsonConvert.SerializeObject(message);
                     IndexLowLevel(json);
                 }
+                //item = ns.GetItemFromID("000000006F8917C81DA08C409D3B1B49454F46C90700C6936CD0FB24CA4482A4BEEF45C1DF1E0000000002100000C6936CD0FB24CA4482A4BEEF45C1DF1E000000001C020000");
+                //item.Display();
             }
             catch (System.Exception e)
             {

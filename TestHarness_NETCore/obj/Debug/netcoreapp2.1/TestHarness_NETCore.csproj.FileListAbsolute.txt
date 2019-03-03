@@ -3,9 +3,7 @@ C:\Users\ckmaster\source\repos\BearSearch\TestHarness_NETCore\bin\Debug\netcorea
 C:\Users\ckmaster\source\repos\BearSearch\TestHarness_NETCore\bin\Debug\netcoreapp2.1\TestHarness_NETCore.runtimeconfig.dev.json
 C:\Users\ckmaster\source\repos\BearSearch\TestHarness_NETCore\bin\Debug\netcoreapp2.1\TestHarness_NETCore.dll
 C:\Users\ckmaster\source\repos\BearSearch\TestHarness_NETCore\bin\Debug\netcoreapp2.1\TestHarness_NETCore.pdb
-C:\Users\ckmaster\source\repos\BearSearch\TestHarness_NETCore\bin\Debug\netcoreapp2.1\Elastic_NETCore.dll
 C:\Users\ckmaster\source\repos\BearSearch\TestHarness_NETCore\bin\Debug\netcoreapp2.1\TikeRest_NETCore.dll
-C:\Users\ckmaster\source\repos\BearSearch\TestHarness_NETCore\bin\Debug\netcoreapp2.1\Elastic_NETCore.pdb
 C:\Users\ckmaster\source\repos\BearSearch\TestHarness_NETCore\bin\Debug\netcoreapp2.1\TikeRest_NETCore.pdb
 C:\Users\ckmaster\source\repos\BearSearch\TestHarness_NETCore\obj\Debug\netcoreapp2.1\TestHarness_NETCore.csprojAssemblyReference.cache
 C:\Users\ckmaster\source\repos\BearSearch\TestHarness_NETCore\obj\Debug\netcoreapp2.1\TestHarness_NETCore.csproj.CoreCompileInputs.cache
@@ -19,3 +17,5 @@ C:\Users\ckmaster\source\repos\BearSearch\TestHarness_NETCore\bin\Debug\netcorea
 C:\Users\ckmaster\source\repos\BearSearch\TestHarness_NETCore\bin\Debug\netcoreapp2.1\CommonComponents_NETStandard.pdb
 C:\Users\ckmaster\source\repos\BearSearch\TestHarness_NETCore\bin\Debug\netcoreapp2.1\OutlookCrawler_NetFramework.pdb
 C:\Users\ckmaster\source\repos\BearSearch\TestHarness_NETCore\bin\Debug\netcoreapp2.1\OutlookCrawler_NetFramework.exe.config
+C:\Users\ckmaster\source\repos\BearSearch\TestHarness_NETCore\bin\Debug\netcoreapp2.1\Elastic_NETStandard.dll
+C:\Users\ckmaster\source\repos\BearSearch\TestHarness_NETCore\bin\Debug\netcoreapp2.1\Elastic_NETStandard.pdb
