@@ -17,7 +17,7 @@ namespace TestHarness_NETCore
                 XmlToJson xmlToJson = new XmlToJson(xmlResponse);
                 string jsonResponse = xmlToJson.Convert();
                 //Globals.logger.CreateOrAppend(jsonResponse);
-                JsonManager jsonManager = new JsonManager(jsonResponse);
+                JsonManager jsonManager = new JsonManager();
                 //Globals.logger.CreateOrAppend((tikaRequest.TikaXML(file) + "\n"));
                 Elastic_NETCore.Elastic elasticProgram = new Elastic_NETCore.Elastic();
                 //elasticProgram.IndexHighLevel(jsonManager.GenericDeserialize());

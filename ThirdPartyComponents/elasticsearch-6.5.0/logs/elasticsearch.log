@@ -593,3 +593,62 @@
 [2018-11-27T18:47:24,966][INFO ][o.e.c.m.MetaDataIndexTemplateService] [LRn4L7A] adding template [kibana_index_template:.kibana] for index patterns [.kibana]
 [2018-11-27T18:47:24,975][INFO ][o.e.c.m.MetaDataIndexTemplateService] [LRn4L7A] adding template [kibana_index_template:.kibana] for index patterns [.kibana]
 [2018-11-27T18:54:03,860][INFO ][o.e.c.m.MetaDataIndexTemplateService] [LRn4L7A] adding template [kibana_index_template:.kibana] for index patterns [.kibana]
+[2019-03-02T17:53:16,238][INFO ][o.e.e.NodeEnvironment    ] [LRn4L7A] using [1] data paths, mounts [[(C:)]], net usable_space [721.7gb], net total_space [953.2gb], types [NTFS]
+[2019-03-02T17:53:16,240][INFO ][o.e.e.NodeEnvironment    ] [LRn4L7A] heap size [989.8mb], compressed ordinary object pointers [true]
+[2019-03-02T17:53:16,286][INFO ][o.e.n.Node               ] [LRn4L7A] node name derived from node ID [LRn4L7A1SEqRsi5_WJMVhg]; set [node.name] to override
+[2019-03-02T17:53:16,287][INFO ][o.e.n.Node               ] [LRn4L7A] version[6.5.0], pid[18464], build[default/zip/816e6f6/2018-11-09T18:58:36.352602Z], OS[Windows 10/10.0/amd64], JVM[AdoptOpenJDK/OpenJDK 64-Bit Server VM/11.0.1/11.0.1+13]
+[2019-03-02T17:53:16,287][INFO ][o.e.n.Node               ] [LRn4L7A] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=C:\Users\ckmaster\AppData\Local\Temp\elasticsearch, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -Xlog:gc*,gc+age=trace,safepoint:file=logs/gc.log:utctime,pid,tags:filecount=32,filesize=64m, -Djava.locale.providers=COMPAT, -XX:UseAVX=2, -Delasticsearch, -Des.path.home=C:\Users\ckmaster\source\repos\BearSearch\ThirdPartyComponents\elasticsearch-6.5.0, -Des.path.conf=C:\Users\ckmaster\source\repos\BearSearch\ThirdPartyComponents\elasticsearch-6.5.0\config, -Des.distribution.flavor=default, -Des.distribution.type=zip]
+[2019-03-02T17:53:17,484][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [aggs-matrix-stats]
+[2019-03-02T17:53:17,485][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [analysis-common]
+[2019-03-02T17:53:17,485][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [ingest-common]
+[2019-03-02T17:53:17,485][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [lang-expression]
+[2019-03-02T17:53:17,485][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [lang-mustache]
+[2019-03-02T17:53:17,486][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [lang-painless]
+[2019-03-02T17:53:17,486][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [mapper-extras]
+[2019-03-02T17:53:17,486][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [parent-join]
+[2019-03-02T17:53:17,486][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [percolator]
+[2019-03-02T17:53:17,486][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [rank-eval]
+[2019-03-02T17:53:17,487][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [reindex]
+[2019-03-02T17:53:17,487][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [repository-url]
+[2019-03-02T17:53:17,487][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [transport-netty4]
+[2019-03-02T17:53:17,488][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [tribe]
+[2019-03-02T17:53:17,488][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [x-pack-ccr]
+[2019-03-02T17:53:17,488][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [x-pack-core]
+[2019-03-02T17:53:17,489][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [x-pack-deprecation]
+[2019-03-02T17:53:17,489][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [x-pack-graph]
+[2019-03-02T17:53:17,489][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [x-pack-logstash]
+[2019-03-02T17:53:17,490][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [x-pack-ml]
+[2019-03-02T17:53:17,490][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [x-pack-monitoring]
+[2019-03-02T17:53:17,490][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [x-pack-rollup]
+[2019-03-02T17:53:17,491][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [x-pack-security]
+[2019-03-02T17:53:17,491][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [x-pack-sql]
+[2019-03-02T17:53:17,491][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [x-pack-upgrade]
+[2019-03-02T17:53:17,492][INFO ][o.e.p.PluginsService     ] [LRn4L7A] loaded module [x-pack-watcher]
+[2019-03-02T17:53:17,492][INFO ][o.e.p.PluginsService     ] [LRn4L7A] no plugins loaded
+[2019-03-02T17:53:19,926][INFO ][o.e.x.s.a.s.FileRolesStore] [LRn4L7A] parsed [0] roles from file [C:\Users\ckmaster\source\repos\BearSearch\ThirdPartyComponents\elasticsearch-6.5.0\config\roles.yml]
+[2019-03-02T17:53:20,299][INFO ][o.e.x.m.j.p.l.CppLogMessageHandler] [LRn4L7A] [controller/24456] [Main.cc@109] controller (64 bit): Version 6.5.0 (Build 71882a589e5556) Copyright (c) 2018 Elasticsearch BV
+[2019-03-02T17:53:20,578][DEBUG][o.e.a.ActionModule       ] [LRn4L7A] Using REST wrapper from plugin org.elasticsearch.xpack.security.Security
+[2019-03-02T17:53:20,843][INFO ][o.e.d.DiscoveryModule    ] [LRn4L7A] using discovery type [zen] and host providers [settings]
+[2019-03-02T17:53:21,305][INFO ][o.e.n.Node               ] [LRn4L7A] initialized
+[2019-03-02T17:53:21,306][INFO ][o.e.n.Node               ] [LRn4L7A] starting ...
+[2019-03-02T17:53:22,027][INFO ][o.e.t.TransportService   ] [LRn4L7A] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2019-03-02T17:53:25,084][INFO ][o.e.c.s.MasterService    ] [LRn4L7A] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {LRn4L7A}{LRn4L7A1SEqRsi5_WJMVhg}{sWYMvWXfSXuq5eXW85zFyA}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=34286448640, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}
+[2019-03-02T17:53:25,087][INFO ][o.e.c.s.ClusterApplierService] [LRn4L7A] new_master {LRn4L7A}{LRn4L7A1SEqRsi5_WJMVhg}{sWYMvWXfSXuq5eXW85zFyA}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=34286448640, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}, reason: apply cluster state (from master [master {LRn4L7A}{LRn4L7A1SEqRsi5_WJMVhg}{sWYMvWXfSXuq5eXW85zFyA}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=34286448640, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2019-03-02T17:53:25,430][WARN ][o.e.x.s.a.s.m.NativeRoleMappingStore] [LRn4L7A] Failed to clear cache for realms [[]]
+[2019-03-02T17:53:25,460][INFO ][o.e.l.LicenseService     ] [LRn4L7A] license [51b1a765-67cd-4a30-a385-a6f03e704781] mode [basic] - valid
+[2019-03-02T17:53:25,524][INFO ][o.e.g.GatewayService     ] [LRn4L7A] recovered [4] indices into cluster_state
+[2019-03-02T17:53:25,793][INFO ][o.e.x.s.t.n.SecurityNetty4HttpServerTransport] [LRn4L7A] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2019-03-02T17:53:25,800][INFO ][o.e.n.Node               ] [LRn4L7A] started
+[2019-03-02T17:53:25,876][INFO ][o.e.c.r.a.AllocationService] [LRn4L7A] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[gutenberg][0], [gutenberg][1], [gutenberg][2]] ...]).
+[2019-03-02T17:53:34,226][INFO ][o.e.c.m.MetaDataCreateIndexService] [LRn4L7A] [outlook] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2019-03-02T17:53:34,402][INFO ][o.e.c.m.MetaDataMappingService] [LRn4L7A] [outlook/CSWhN1SdQNWYyk3PebdDWw] create_mapping [doc]
+[2019-03-02T17:53:34,507][INFO ][o.e.c.m.MetaDataMappingService] [LRn4L7A] [outlook/CSWhN1SdQNWYyk3PebdDWw] update_mapping [doc]
+[2019-03-02T17:55:19,168][INFO ][o.e.c.m.MetaDataIndexTemplateService] [LRn4L7A] adding template [.management-beats] for index patterns [.management-beats]
+[2019-03-02T18:02:43,518][INFO ][o.e.c.m.MetaDataDeleteIndexService] [LRn4L7A] [gutenberg/4Mg2aJ1MQfigcqs2eMjzug] deleting index
+[2019-03-02T18:02:49,235][INFO ][o.e.c.m.MetaDataDeleteIndexService] [LRn4L7A] [outlook/CSWhN1SdQNWYyk3PebdDWw] deleting index
+[2019-03-02T18:03:21,102][INFO ][o.e.c.m.MetaDataDeleteIndexService] [LRn4L7A] [.tasks/P3zKQytDT-CgBIsQWCUfgA] deleting index
+[2019-03-02T18:03:27,330][INFO ][o.e.c.m.MetaDataDeleteIndexService] [LRn4L7A] [.kibana_1/DMKKAWNxQOC9e0-ooBdJpw] deleting index
+[2019-03-02T18:03:31,235][INFO ][o.e.c.m.MetaDataDeleteIndexService] [LRn4L7A] [.kibana_2/FCG5C8ElTMO_S1awG6chZw] deleting index
+[2019-03-02T18:03:43,419][INFO ][o.e.c.m.MetaDataCreateIndexService] [LRn4L7A] [outlook] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2019-03-02T18:03:43,601][INFO ][o.e.c.m.MetaDataMappingService] [LRn4L7A] [outlook/nYESKbmbQ1yhgeC8V5Sd_Q] create_mapping [doc]
+[2019-03-02T18:03:43,663][INFO ][o.e.c.m.MetaDataMappingService] [LRn4L7A] [outlook/nYESKbmbQ1yhgeC8V5Sd_Q] update_mapping [doc]

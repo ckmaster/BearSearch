@@ -17,3 +17,5 @@
 [2018-11-27T18:47:24,961][WARN ][o.e.d.a.a.i.t.p.PutIndexTemplateRequest] [LRn4L7A] Deprecated field [template] used, replaced by [index_patterns]
 [2018-11-27T18:47:24,961][WARN ][o.e.d.a.a.i.t.p.PutIndexTemplateRequest] [LRn4L7A] Deprecated field [template] used, replaced by [index_patterns]
 [2018-11-27T18:54:03,855][WARN ][o.e.d.a.a.i.t.p.PutIndexTemplateRequest] [LRn4L7A] Deprecated field [template] used, replaced by [index_patterns]
+[2019-03-02T17:53:34,218][WARN ][o.e.d.c.m.MetaDataCreateIndexService] [LRn4L7A] the default number of shards will change from [5] to [1] in 7.0.0; if you wish to continue using the default of [5] shards, you must manage this on the create index request or with an index template
+[2019-03-02T18:03:43,417][WARN ][o.e.d.c.m.MetaDataCreateIndexService] [LRn4L7A] the default number of shards will change from [5] to [1] in 7.0.0; if you wish to continue using the default of [5] shards, you must manage this on the create index request or with an index template

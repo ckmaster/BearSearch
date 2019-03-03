@@ -4,10 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Office.Interop.Outlook;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using OutlookCrawler_NetFramework;
+using Elasticsearch;
+using Elasticsearch.Net;
 
 namespace OutlookCrawler_NETFramework
 {
-    class OutlookCrawler
+    public class OutlookCrawler
     {
         static void Main(string[] args)
         {
@@ -29,19 +34,15 @@ namespace OutlookCrawler_NETFramework
                 for (int i=1; i<=subFolder.Items.Count;i++)
                 {
                     item = (MailItem)subFolder.Items[i];
-                    //Console.WriteLine("Item: {0}", i.ToString());
-                    //Console.WriteLine("Subject: {0}", item.Subject);
-                    //Console.WriteLine("Sent: {0} {1}", item.SentOn.ToLongDateString(), item.SentOn.ToLongTimeString());
-                    //Console.WriteLine("Categories: {0}", item.Categories);
-                    CommonComponents_NETStandard.Logger logger = new CommonComponents_NETStandard.Logger($"{i}.log");
-                    logger.CreateAlways(item.Body);
-                    CommonComponents_NETStandard.Logger htmlLogger = new CommonComponents_NETStandard.Logger($"{i}.html");
-                    htmlLogger.CreateAlways(item.HTMLBody);
+                    Message message = new Message(item);
+                    string json = JsonConvert.SerializeObject(message);
+                    IndexLowLevel(json);
                 }
             }
             catch (System.Exception e)
             {
                 Console.WriteLine(e.ToString());
+                Console.ReadLine();
             }
             finally
             {
@@ -49,6 +50,15 @@ namespace OutlookCrawler_NETFramework
                 app = null;
                 inboxFolder = null;
             }
+        }
+
+        private static void IndexLowLevel(string jsonBody)
+        {
+            var settings = new ConnectionConfiguration(new Uri("http://localhost:9200")).RequestTimeout(TimeSpan.FromMinutes(2));
+            var lowlevelClient = new ElasticLowLevelClient(settings);
+            var indexResponse = lowlevelClient.Index<BytesResponse>("outlook", "doc", PostData.String(jsonBody));
+            byte[] responseBytes = indexResponse.Body;
+            CommonComponents_NETStandard.Globals.logger.CreateOrAppend(responseBytes.ToString());
         }
     }
 }
